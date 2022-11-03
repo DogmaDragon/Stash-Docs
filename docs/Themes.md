@@ -30,11 +30,11 @@ If you would like to develop your own theme, we have a [reference guide of CSS s
 
 ## Theme Directory
 
-| *Name* | *Preview* | *URL* |
-|---|---|---|
-| Pulsar | ![Screenshot of Pulsar Theme](https://i.imgur.com/5Qp7jFA.jpg) | [{{ site.baseurl }}/docs/Theme-Pulsar]({{ site.baseurl }}/docs/Theme-Pulsar) |
-| Light Pulsar | ![Screenshot of Light Pulsar Theme](https://i.imgur.com/RW0ozOz.jpg) | [{{ site.baseurl }}/docs/Theme-Light-Pulsar]({{ site.baseurl }}/docs/Theme-Light-Pulsar) |
-| Night | ![Screenshot of Night Theme](https://user-images.githubusercontent.com/3514095/110681521-ea93ac00-81a7-11eb-98ae-27adacb2aa6d.png) | [{{ site.baseurl }}/docs/Theme-Night]({{ site.baseurl }}/docs/Theme-Night) |
-| Plex | ![Screenshot of Plex Theme](https://user-images.githubusercontent.com/3514095/110681550-f1baba00-81a7-11eb-8f1f-90a65727934b.png) | [{{ site.baseurl }}/docs/Theme-Plex]({{ site.baseurl }}/docs/Theme-Plex) |
-| Black Hole | ![Screenshot of Black Hole Theme](https://i.imgur.com/Eo0ZUzu.png) | [{{ site.baseurl }}/docs/Theme-Black-Hole]({{ site.baseurl }}/docs/Theme-Black-Hole) |
-| Modern Dark | ![Screenshot of Modern Dark](https://user-images.githubusercontent.com/72030708/158081426-d0f8c2df-cd68-4344-9de5-100d119b1e1c.jpeg) | [{{ site.baseurl }}/docs/Theme-Modern-Dark]({{ site.baseurl }}/docs/Theme-Modern-Dark) |
+| *Name* | *Preview* |
+|---|---|
+| [Pulsar]({{ site.baseurl }}/docs/Theme/Theme-Pulsar) | ![Screenshot of Pulsar Theme](Themes/assets/Pulsar-preview.jpg) |
+| [Light Pulsar]({{ site.baseurl }}/docs/Theme/Theme-Light-Pulsar) | ![Screenshot of Light Pulsar Theme](Themes/assets/Light-Pulsar-preview.jpg) |
+| [Night]({{ site.baseurl }}/docs/Theme/Theme-Night) | ![Screenshot of Night Theme](Themes/assets/Night-preview.png) |
+| [Plex]({{ site.baseurl }}/docs/Theme/Theme-Plex) | ![Screenshot of Plex Theme](Themes/assets/Plex-preview.png) |
+| [Black Hole]({{ site.baseurl }}/docs/Theme/Theme-Black-Hole) | ![Screenshot of Black Hole Theme](Themes/assets/Black-Hole-preview.png) |
+| [Modern Dark]({{ site.baseurl }}/docs/Theme/Theme-Modern-Dark) | ![Screenshot of Modern Dark](Themes/assets/Modern-Dark-preview.jpg) |
