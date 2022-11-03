@@ -4,6 +4,7 @@ title: FAQ
 nav_order: 8
 ---
 # **FAQ - Frequently Asked Questions**
+{: .no_toc }
 <details open markdown="block">
   <summary>
     Table of Contents
@@ -22,14 +23,20 @@ The installation instructions are available from the [README.md](https://github.
 #### Windows
 
 - Run the executable (typically "stash-win.exe"). The app will start up in a terminal window, read in your configuration and then give you a URL to connect with in your browser.
-_Note for Windows users_: Running the app might present a security prompt since the binary isn't signed yet. Just click more info and then the "run anyway" button.
+- _Note for Windows users_: Running the app might present a security prompt since the binary isn't signed yet. Just click more info and then the "run anyway" button.
+- Navigate to http://localhost:9999 to get started.
 
-#### Mac OS / Linux
--  Run `./stash-osx` / `./stash-linux` from the terminal on macOS / Linux)
--   _Note for Mac/Linux users_: If you have trouble, try running `chmod u+x stash-osx` or `chmod u+x stash-linux` to make the file executable.
+#### macOS
 
+- Run `./stash-osx` from the terminal on macOS)
+- _Note for Mac users_: If you have trouble, try running `chmod u+x stash-osx` to make the file executable.
+- Navigate to http://localhost:9999 to get started.
 
-** Navigate to http://localhost:9999 to get started. **
+#### Linux
+
+- Run `./stash-linux` from the terminal on Linux)
+- _Note for Linux users_: If you have trouble, try running `chmod u+x stash-linux` to make the file executable.
+- Navigate to http://localhost:9999 to get started.
 
 # Logging In
 ## How do I recover a forgotten username or password?
