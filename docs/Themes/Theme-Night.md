@@ -2,7 +2,7 @@
 layout: default
 title: Theme Night
 nav_order: 3
-Parent: Themes
+parent: Themes
 ---
 # **Theme Night**
 <details open markdown="block">

@@ -3,7 +3,7 @@ layout: default
 title: Themes
 nav_order: 26
 has_children: true
-has_toc: false
+has_toc: true
 ---
 # **Themes**
 <details open markdown="block">

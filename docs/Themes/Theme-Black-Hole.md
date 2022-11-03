@@ -2,7 +2,7 @@
 layout: default
 title: Theme Black Hole
 nav_order: 5
-Parent: Themes
+parent: Themes
 ---
 # **Theme Black Hole**
 <details open markdown="block">
