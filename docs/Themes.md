@@ -5,8 +5,7 @@ nav_order: 26
 has_children: true
 has_toc: false
 ---
-# **Themes**
-
+# Themes
 {: .no_toc }
 Stash supports Custom CSS themes to adjust the look-and-feel of the interface. There are several that have been created by the maintainers and users.
 
