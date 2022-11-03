@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Themes
-has_children: true
 nav_order: 26
+has_children: true
 ---
 # **Themes**
 <details open markdown="block">
