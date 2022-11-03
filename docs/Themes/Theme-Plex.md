@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Theme Plex
-nav_order: 24
+nav_order: 4
+Parent: Themes
 ---
 # **Theme Plex**
 <details open markdown="block">

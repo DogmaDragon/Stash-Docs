@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Theme Light Pulsar
-nav_order: 22
+nav_order: 2
+Parent: Themes
 ---
 # **Theme Light Pulsar**
 <details open markdown="block">

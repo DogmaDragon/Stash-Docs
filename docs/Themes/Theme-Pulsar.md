@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Theme Pulsar
-nav_order: 25
+nav_order: 1
+Parent: Themes
 ---
 # **Theme Pulsar**
 <details open markdown="block">

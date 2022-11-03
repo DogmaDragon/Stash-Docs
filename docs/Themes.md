@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Themes
+has_children: true
 nav_order: 26
 ---
 # **Themes**

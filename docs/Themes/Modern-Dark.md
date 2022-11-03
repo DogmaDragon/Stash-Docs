@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Modern Dark
-nav_order: 15
+nav_order: 6
+Parent: Themes
 ---
 # **Modern Dark**
 <details open markdown="block">
