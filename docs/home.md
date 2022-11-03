@@ -4,10 +4,8 @@ title: Home
 nav_order: 1
 permalink: /
 ---
-# Stash-Docs
-
-**Documentation for Stash software**
-
+# Stash-Docs - Stash documentation
+{: .no_toc }
 Stash is a web front-end app for serving and organizing your porn. Stash currently supports Windows, Linux, and macOS. To download Stash see the [latest releases](https://github.com/stashapp/stash/releases). You can learn more about the software generally via the [README](https://github.com/stashapp/stash/blob/master/README.md) or find answers to [FAQ]({{ site.baseurl }}/docs/FAQ/) here.
 
 <details open markdown="block">

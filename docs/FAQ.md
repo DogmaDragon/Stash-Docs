@@ -3,7 +3,7 @@ layout: default
 title: FAQ
 nav_order: 8
 ---
-# **FAQ**
+# **FAQ - Frequently Asked Questions**
 <details open markdown="block">
   <summary>
     Table of Contents
@@ -13,12 +13,17 @@ nav_order: 8
 {:toc}
 </details>
 
-# Installing and Launching
+## Installing and launching Stash
+
 The installation instructions are available from the [README.md](https://github.com/stashapp/stash).
-## How do I get into Stash once installed?
+
+### How do I get into Stash once installed?
+
 #### Windows
+
 - Run the executable (typically "stash-win.exe"). The app will start up in a terminal window, read in your configuration and then give you a URL to connect with in your browser.
-- _Note for Windows users_: Running the app might present a security prompt since the binary isn't signed yet. Just click more info and then the "run anyway" button.
+_Note for Windows users_: Running the app might present a security prompt since the binary isn't signed yet. Just click more info and then the "run anyway" button.
+
 #### Mac OS / Linux
 -  Run `./stash-osx` / `./stash-linux` from the terminal on macOS / Linux)
 -   _Note for Mac/Linux users_: If you have trouble, try running `chmod u+x stash-osx` or `chmod u+x stash-linux` to make the file executable.
