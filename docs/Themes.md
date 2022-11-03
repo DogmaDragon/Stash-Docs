@@ -7,18 +7,18 @@ has_toc: false
 ---
 # **Themes**
 
+Stash supports Custom CSS themes to adjust the look-and-feel of the interface. There are several that have been created by the maintainers and users.
+
 <details open markdown="block">
   <summary>
     Table of Contents
   </summary>
+# Navigation Structure
 {: .no_toc }
-{: .no_toc .text-delta }
+{: .text-delta }
 1. TOC
 {:toc}
 </details>
-# Themes
-
-Stash supports Custom CSS themes to adjust the look-and-feel of the interface. There are several that have been created by the maintainers and users.
 
 ## Installing Themes
 
