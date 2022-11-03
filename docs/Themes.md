@@ -7,27 +7,24 @@ has_toc: false
 ---
 # **Themes**
 
+{: .no_toc }
 Stash supports Custom CSS themes to adjust the look-and-feel of the interface. There are several that have been created by the maintainers and users.
 
 <details open markdown="block">
   <summary>
     Table of Contents
   </summary>
-# Navigation Structure
-{: .no_toc }
 {: .text-delta }
 1. TOC
 {:toc}
 </details>
 
-## Installing Themes
+## Installing a theme
 
-To Install a theme
-
-1) Select a theme from the directory below, and copy the CSS code to your clipboard. You may also need to download image files, as per the instructions.
-2) In Stash, go to the Config section, then select "Interface"
-3) Make sure "Custom CSS" is checked, then paste the CSS code into the text box.
-4) You will need to force-reload (Shift+F5) in order to see the theme.
+1. Select a theme from the directory below, and copy the CSS code to your clipboard. You may also need to download image files, as per the instructions.
+2. In Stash, go to the Settings section, then select `Interface`.
+3. Make sure "Custom CSS" is checked, then paste the CSS code into the text box.
+4. You will need to force-reload (Shift+F5) in order to see the theme.
 
 ## Creating Themes
 
@@ -35,9 +32,8 @@ If you would like to develop your own theme, we have a [reference guide of CSS s
 
 ## Theme Directory
 
-
-| *Name*                                                           | *Preview*                                                                   |
-| ------------------------------------------------------------------ | ----------------------------------------------------------------------------- |
+| *Name*                                                         | *Preview*                                                               |
+| ---------------------------------------------------------------- | ------------------------------------------------------------------------- |
 | [Pulsar]({{ site.baseurl }}/docs/Theme/Theme-Pulsar)             | ![Screenshot of Pulsar Theme](Themes/assets/Pulsar-preview.jpg)             |
 | [Light Pulsar]({{ site.baseurl }}/docs/Theme/Theme-Light-Pulsar) | ![Screenshot of Light Pulsar Theme](Themes/assets/Light-Pulsar-preview.jpg) |
 | [Night]({{ site.baseurl }}/docs/Theme/Theme-Night)               | ![Screenshot of Night Theme](Themes/assets/Night-preview.png)               |
