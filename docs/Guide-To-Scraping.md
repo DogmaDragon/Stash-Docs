@@ -35,13 +35,13 @@ The following is our recommended procedure for new Stash users who want to get i
 
 ---
 
-## **Join StashDB**
+## Join StashDB
 
 - If you haven't set up StashDB in your Stash settings yet, now's the time to do it. Get an invite code in the **#stashdb-invites** channel on [Discord](https://discord.com/channels/559159668438728723). Check the pinned messages (📌 icon in top right) there for details and up-to-date instructions on how to create an account and connect to it from Stash.
 
 ---
 
-## **Use the Scene Tagger**
+## Use the Scene Tagger
 
 1.  Go to your Scenes page on Stash and click the double 🔖 icon to the far right of the search bar. This is your Scene Tagger view and should be your first choice for pulling data, not Identify / Autotag / Filename Parser / URL Scrapers / etc. Always use the Scene Tagger first, the rest are for users with more specific needs who understand the strengths and weaknesses of each tool.
 ![How to find the Scene Tagger](Guide-To-Scraping/assets/find-scene-tagger.jpg)
@@ -60,7 +60,7 @@ The following is our recommended procedure for new Stash users who want to get i
 
 ---
 
-## **Use ThePornDB Scraper**
+## Use ThePornDB Scraper
 
 1.  If you are absolutely sure a scene isn't on StashDB anywhere, the next easiest method is to scrape from ThePornDB. They have significantly more scenes than StashDB thanks to their automated scrapers, but their info isn't always as complete or accurate compared to StashDB's manually curated approach. They also don't host PHashes so matching scenes can be trickier as well.
 
@@ -96,7 +96,7 @@ The following is our recommended procedure for new Stash users who want to get i
 
 ---
 
-## **Use Site-Specific Scrapers**
+## Use Site-Specific Scrapers
 
 1.  If you've already [tried StashDB](#use-the-scene-tagger), you've already [tried ThePornDB](#use-theporndb-scraper), and you still want to scrape a site directly, you can try using a site-specific scraper. However, every scraper is going to work differently. Some will need Python installed. Others will need you to set a user agent or a Chrome CDP path. A handful will need to be edited and configured first. Only a few can search a studio's website for the right scene. The entire process is much more advanced and is different for each scraper, which is why we recommend StashDB and TPDB first for new users. They can all be found in [the same repo](https://github.com/stashapp/CommunityScrapers) where we found ThePornDB's scraper. You can download them individually like we did with the TPDB scraper or you can download the entire repo as a zip archive.
 
@@ -105,7 +105,7 @@ The following is our recommended procedure for new Stash users who want to get i
 
 ---
 
-## **Submit to StashDB**
+## Submit to StashDB
 
 1.  If you're certain a scene isn't on StashDB and you've found the info using ThePornDB or some other scraper, please consider submitting it to StashDB yourself. That way nobody else will have to duplicate the same work you've done for that particular scene if they can match their [PHash](#generate-phashes) with yours. You'll need to ask for edit privileges in our [Discord](https://discord.com/channels/559159668438728723) and follow the guidelines on [this website]({{ site.baseurl }}/docs/scenes/). In particular, please note that [not every scene can be added to StashDB]({{ site.baseurl }}/docs/scenes/adding-scenes/) at this time. Some [studios aren't allowed]({{ site.baseurl }}/docs/scenes/movies-dvds/) and [full movies likely won't be eligible]({{ site.baseurl }}/docs/scenes/movies-dvds/) either.
 
