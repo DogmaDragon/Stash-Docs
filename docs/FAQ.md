@@ -23,8 +23,6 @@ nav_order: 8
 
 The installation instructions are available from the [README.md](https://github.com/stashapp/stash).
 
----
-
 ### How do I get into Stash once installed?
 
 #### Windows
@@ -50,8 +48,6 @@ The installation instructions are available from the [README.md](https://github.
 
 ## Logging in
 
----
-
 ### How do I recover a forgotten username or password?
 
 Stash saves login credentials in the `config.yml` file. You must reset both login and password if you have forgotten your password by doing the following:
@@ -60,11 +56,15 @@ Stash saves login credentials in the `config.yml` file. You must reset both logi
 - Delete the `login` and `password` lines from the file and save;
 - Stash authentication should now be reset with no authentication credentials.
 
+---
+
 ### How can I connect to my server from elsewhere within my network?
 
 Find the local IP address of your Stash Server (guides for [Windows](https://support.microsoft.com/en-us/windows/find-your-ip-address-in-windows-f21a9bbc-c582-55cd-35e0-73431160a1b9), [MacOS](https://support.apple.com/guide/mac-help/find-your-computers-name-and-network-address-mchlp1177/11.0/mac/11.0), [Linux](https://wiki.archlinux.org/title/Network_configuration#IP_addresses)). Then, on another device on your local network, open a browser to http://SERVER.IP.ADDRESS.HERE:9999/
 
 See [this article]({{ site.baseurl }}/docs/Authentication-Required-When-Accessing-Stash-From-the-Internet#alternative-and-safe-methods-to-access-your-stash) for ideas on accessing your stash from outside your network.
+
+---
 
 ### How do I serve Stash over SSL/TLS (HTTPS)?
 This is typically accomplished by putting Stash behind a reverse proxy, such as Nginx or Caddy. Stash can also serve SSL directly.
@@ -77,9 +77,13 @@ This command would need customizing for your environment.  [This link](https://s
 
 Once you have a certificate and key file name them `stash.crt` and `stash.key` and place them in the same directory as the `config.yml` file, or the `~/.stash` directory.  Stash detects these and starts up using HTTPS rather than HTTP.
 
+---
+
 ### How do I serve Stash in a Subpath?
 
 The basepath defaults to `/`. When running stash via a reverse proxy in a subpath, the basepath can be changed by having the reverse proxy pass `X-Forwarded-Prefix` (and optionally `X-Forwarded-Port`) headers. When detects these headers, it alters the basepath URL of the UI.
+
+---
 
 ## Working with Content
 
@@ -89,16 +93,24 @@ The basepath defaults to `/`. When running stash via a reverse proxy in a subpat
 * Pierre Delecto wrote [a Python script](https://github.com/ThePornDatabase/stash_theporndb_scraper) for scraping from ThePornDB. This is arguably the fastest way to mass create studios / performers and populate scene data.
 * StashDB is a service that allows for crowdsourcing of porn metadata. Check the pinned messages in the #stashbox-invites channel in Discord to start using it.
 
+---
+
 ### How do I rename or relocate a library folder?
 **If you need to move or rename a folder**, you can remove the existing directory from your library and readd the new location. Stash will recognize the files on the next scan and re-link to the new location. **Do not run a Clean in between these steps, or you will lose the information from your relocated folders** (your files will not be affected).
 
 > **⚠️ Note:** Don't forget to click `Save` after updating these directories!
 
+---
+
 ### How do I add galleries?
 For gallery-related issues check the relevant Documentation [section](https://github.com/stashapp/stash/blob/develop/ui/v2.5/src/docs/en/Galleries.md).
 
+---
+
 ## Scraping
+
 ### Scrape behind paywall
+
 A regular scraper can only scrape information from webpages that are open to the public access. If you want to scrape a webpage that requires login or behind a paywall, you need to use the "Visible CDP" technique. So far this technique was tested and passed under Windows 10 only. <p>
 Normal CDP scraping will launch a headless chrome browser, which will not show up for any user interactions. "Visible CDP" turns the "headless chrome" into a "visible" instance.<p>
 Steps: <p>
@@ -112,9 +124,14 @@ driver:
 4. Use the special Chrome instance you launched earlier, go to the webpage you want to scrape, type in your user/pass or pass any other human tests, until you see the page with desired content.
 5. Paste the webpage's URL in your Stash scene and start scraping. It should get the information correctly.
 
+---
+
 ## Troubleshooting
+
 ### Known Issues
 - Performer images uploaded in WebP format will not display on versions of Safari prior to version 13 or on anything earlier than MacOS Big Sur. This is a [limitation of Safari](https://caniuse.com/webp).  As a workaround, ensure you are uploading performer images in jpg or png format.
+
+---
 
 ### Stash is showing a "FFMPEG Not Found" error
 If Stash is unable to find or download FFMPEG, then download and install it yourself:
@@ -123,6 +140,7 @@ You can find links to pre-compiled binaries [here](https://github.com/stashapp/s
 
 The `ffmpeg(.exe)` and `ffprobe(.exe)` files should be placed in `~/.stash` on macOS / Linux or `C:\Users\YourUsername\.stash` on Windows.
 
+---
 
 ## Other FAQs
 
