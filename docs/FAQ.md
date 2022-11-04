@@ -68,6 +68,7 @@ Find the local IP address of your Stash Server (guides for [Windows](https://sup
 See [this article]({{ site.baseurl }}/docs/Authentication-Required-When-Accessing-Stash-From-the-Internet#alternative-and-safe-methods-to-access-your-stash) for ideas on accessing your stash from outside your network.
 
 ### How do I serve Stash over SSL/TLS (HTTPS)?
+
 This is typically accomplished by putting Stash behind a reverse proxy, such as Nginx or Caddy. Stash can also serve SSL directly.
 To use the built-in SSL:
 First you must generate a SSL certificate and key combo.  Here is an example using openssl:
@@ -93,11 +94,13 @@ The basepath defaults to `/`. When running stash via a reverse proxy in a subpat
 * StashDB is a service that allows for crowdsourcing of porn metadata. Check the pinned messages in the #stashbox-invites channel in Discord to start using it.
 
 ### How do I rename or relocate a library folder?
-**If you need to move or rename a folder**, you can remove the existing directory from your library and readd the new location. Stash will recognize the files on the next scan and re-link to the new location. **Do not run a Clean in between these steps, or you will lose the information from your relocated folders** (your files will not be affected).
+
+**If you need to move or rename a folder**, you can remove the existing directory from your library and re-add the new location. Stash will recognize the files on the next scan and re-link to the new location. **Do not run a Clean in between these steps, or you will lose the information from your relocated folders** (your files will not be affected).
 
 > **⚠️ Note:** Don't forget to click `Save` after updating these directories!
 
 ### How do I add galleries?
+
 For gallery-related issues check the relevant Documentation [section](https://github.com/stashapp/stash/blob/develop/ui/v2.5/src/docs/en/Galleries.md).
 
 ---
@@ -124,18 +127,20 @@ driver:
 ## Troubleshooting
 
 ### Known Issues
+
 - Performer images uploaded in WebP format will not display on versions of Safari prior to version 13 or on anything earlier than MacOS Big Sur. This is a [limitation of Safari](https://caniuse.com/webp). As a workaround, ensure you are uploading performer images in jpg or png format.
 
 ### Stash is showing a "FFMPEG Not Found" error
-If Stash is unable to find or download FFMPEG, then download and install it yourself:
 
-You can find links to pre-compiled binaries [here](https://github.com/stashapp/stash#pre-compiled-binaries).
+If Stash is unable to find or download FFMPEG, then download and install it yourself.
 
-The `ffmpeg(.exe)` and `ffprobe(.exe)` files should be placed in `~/.stash` on macOS / Linux or `C:\Users\YourUsername\.stash` on Windows.
+The `ffmpeg.exe` and `ffprobe.exe` files should be placed in `C:\Users\YourUsername\.stash` on Windows.
+The `ffmpeg` and `ffprobe` files should be placed in `~/.stash` on macOS / Linux. 
 
 ---
 
 ## Other FAQs
 
 ### I have a question not answered here.
+
 Join the Stash [Discord server](https://discord.gg/2TsNFKt).
