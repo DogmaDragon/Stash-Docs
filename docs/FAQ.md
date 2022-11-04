@@ -28,23 +28,25 @@ The installation instructions are available from the [README.md](https://github.
 
 #### macOS
 
-- Run `./stash-osx` from the terminal on macOS)
+- Run `./stash-osx` from the terminal on macOS).
 - _Note for Mac users_: If you have trouble, try running `chmod u+x stash-osx` to make the file executable.
 - Navigate to http://localhost:9999 to get started.
 
 #### Linux
 
-- Run `./stash-linux` from the terminal on Linux)
+- Run `./stash-linux` from the terminal on Linux).
 - _Note for Linux users_: If you have trouble, try running `chmod u+x stash-linux` to make the file executable.
 - Navigate to http://localhost:9999 to get started.
 
-# Logging In
+## Logging in
+
 ## How do I recover a forgotten username or password?
-Stash saves login credentials in the config.yml file. You must reset both login and password if you have forgotten your password by doing the following:
-* Close your Stash process
-* Open the `config.yml` file found in your Stash directory with a text editor
-* Delete the `login` and `password` lines from the file and save
-Stash authentication should now be reset with no authentication credentials.
+
+Stash saves login credentials in the `config.yml` file. You must reset both login and password if you have forgotten your password by doing the following:
+- Close your Stash process;
+- Open the `config.yml` file found in your Stash directory with a text editor;
+- Delete the `login` and `password` lines from the file and save;
+- Stash authentication should now be reset with no authentication credentials.
 
 ## How can I connect to my server from elsewhere within my network?
 
