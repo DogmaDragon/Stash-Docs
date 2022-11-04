@@ -5,7 +5,9 @@ nav_order: 8
 ---
 # **FAQ - Frequently Asked Questions**
 {: .no_toc }
+
 ---
+
 <details open markdown="block">
   <summary>
     Table of Contents
@@ -14,6 +16,7 @@ nav_order: 8
 1. TOC
 {:toc}
 </details>
+
 ---
 
 ## Installing and launching Stash
