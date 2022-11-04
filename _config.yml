@@ -3,7 +3,6 @@ plugins:
   - jekyll-remote-theme
 exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"]
 
-source: ./
 title: Stash-Docs
 description: Documentation for Stash software
 baseurl: "/Stash-Docs"
