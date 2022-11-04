@@ -23,8 +23,6 @@ nav_order: 8
 
 The installation instructions are available from the [README.md](https://github.com/stashapp/stash).
 
----
-
 ### How do I get into Stash once installed?
 
 #### Windows
@@ -49,8 +47,6 @@ The installation instructions are available from the [README.md](https://github.
 ---
 
 ## Logging in
-
----
 
 ### How do I recover a forgotten username or password?
 
@@ -85,8 +81,6 @@ The basepath defaults to `/`. When running stash via a reverse proxy in a subpat
 
 ## Working with Content
 
----
-
 ### What's the best way to add metadata to Stash?
 
 * Stash includes a single scraper, but you can add more via the [CommunityScrapers repo](https://github.com/stashapp/CommunityScrapers). See the README for installation and usage instructions.
@@ -104,8 +98,6 @@ For gallery-related issues check the relevant Documentation [section](https://gi
 ---
 
 ## Scraping
-
----
 
 ### Scrape behind paywall
 
@@ -126,8 +118,6 @@ driver:
 
 ## Troubleshooting
 
----
-
 ### Known Issues
 - Performer images uploaded in WebP format will not display on versions of Safari prior to version 13 or on anything earlier than MacOS Big Sur. This is a [limitation of Safari](https://caniuse.com/webp). As a workaround, ensure you are uploading performer images in jpg or png format.
 
@@ -141,8 +131,6 @@ The `ffmpeg(.exe)` and `ffprobe(.exe)` files should be placed in `~/.stash` on m
 ---
 
 ## Other FAQs
-
----
 
 ### I have a question not answered here.
 Join the Stash [Discord server](https://discord.gg/2TsNFKt).
