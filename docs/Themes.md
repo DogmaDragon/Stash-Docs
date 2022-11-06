@@ -39,7 +39,7 @@ If you would like to develop your own theme, we have a [reference guide of CSS s
 
 ## Theme Directory
 
-| *Name*                                                         | *Preview*                                                               |
+| Name                                                         | Preview                                                               |
 | ---------------------------------------------------------------- | ------------------------------------------------------------------------- |
 | [Pulsar]({{ site.baseurl }}/docs/Theme/Theme-Pulsar)             | ![Screenshot of Pulsar Theme](Themes/assets/Pulsar-preview.jpg)             |
 | [Light Pulsar]({{ site.baseurl }}/docs/Theme/Theme-Light-Pulsar) | ![Screenshot of Light Pulsar Theme](Themes/assets/Light-Pulsar-preview.jpg) |
