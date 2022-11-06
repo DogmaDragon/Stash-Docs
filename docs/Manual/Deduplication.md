@@ -1,4 +1,22 @@
-# Dupe Checker
+---
+layout: default
+title: Dupe Checker
+nav_order: 10
+parent: Manual
+---
+
+# **Dupe Checker**
+{: .no_toc }
+<details open markdown="block">
+  <summary>
+    Table of Contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
+---
 
 [The dupe checker](/sceneDuplicateChecker) searches your collection for scenes that are perceptually similar. This means that the files don't need to be identical, and will be identified even with different bitrates, resolutions, and intros/outros.
 

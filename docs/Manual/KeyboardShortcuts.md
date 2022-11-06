@@ -1,4 +1,22 @@
-# Keyboard Shortcuts
+---
+layout: default
+title: Keyboard Shortcuts
+nav_order: 13
+parent: Manual
+---
+
+# **Keyboard Shortcuts**
+{: .no_toc }
+<details open markdown="block">
+  <summary>
+    Table of Contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
+---
 
 ## Global shortcuts
 

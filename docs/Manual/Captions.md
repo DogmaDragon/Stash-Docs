@@ -1,4 +1,22 @@
-# Captions
+---
+layout: default
+title: Captions
+nav_order: 12
+parent: Manual
+---
+
+# **Captions**
+{: .no_toc }
+<details open markdown="block">
+  <summary>
+    Table of Contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
+---
 
 Stash supports captioning with SRT and VTT files.
 

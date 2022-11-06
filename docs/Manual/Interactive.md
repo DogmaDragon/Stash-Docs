@@ -1,4 +1,22 @@
-# Interactivity
+---
+layout: default
+title: Interactivity
+nav_order: 11
+parent: Manual
+---
+
+# **Interactivity**
+{: .no_toc }
+<details open markdown="block">
+  <summary>
+    Table of Contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
+---
 
 Stash currently supports syncing with Handy devices, using funscript files.
 

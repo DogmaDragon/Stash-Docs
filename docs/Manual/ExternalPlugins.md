@@ -1,4 +1,23 @@
-# External Plugins
+---
+layout: default
+title: External Plugins
+nav_order: 1
+parent: Plugins
+grand_parent: Manual
+---
+
+# **External Plugins**
+{: .no_toc }
+<details open markdown="block">
+  <summary>
+    Table of Contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
+---
 
 External plugins are executed by running an external binary.
 

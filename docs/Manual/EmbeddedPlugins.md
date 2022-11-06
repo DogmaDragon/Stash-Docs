@@ -1,4 +1,23 @@
-# Embedded Plugins
+---
+layout: default
+title: Embedded Plugins
+nav_order: 2
+parent: Plugins
+grand_parent: Manual
+---
+
+# **Embedded Plugins**
+{: .no_toc }
+<details open markdown="block">
+  <summary>
+    Table of Contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
+---
 
 Embedded plugins are executed within the stash process using a scripting system.
 

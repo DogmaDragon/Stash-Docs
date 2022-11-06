@@ -1,4 +1,23 @@
-# Plugins
+---
+layout: default
+title: Plugins
+nav_order: 8
+parent: Manual
+has_children: true
+---
+
+# **Plugins**
+{: .no_toc }
+<details open markdown="block">
+  <summary>
+    Table of Contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
+---
 
 Stash supports the running tasks via plugins. Plugins can be implemented using embedded Javascript, or by calling an external binary.
 
