@@ -2,7 +2,7 @@
 layout: default
 title: Contributing Scrapers
 nav_order: 1
-parent: Scraping
+parent: Metadata Scraping
 grand_parent: Manual
 ---
 
