@@ -23,6 +23,10 @@ Stash is a web front-end app for serving and organizing your porn. Stash current
 
 ---
 
+<iframe src="https://player.vimeo.com/video/545323354?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" title="Stash 0.5.0 SFW demo (2021-02-23)" data-ready="true"></iframe>
+
+---
+
 ## Getting the Latest Stash
 
 [Synology NAS]({{ site.baseurl }}/docs/Installing-on-Synology-NAS) • [UNRAID]({{ site.baseurl }}/docs/Unraid-Support) • [TrueNAS/FreeNAS]({{ site.baseurl }}/docs/Installing-on-FreeNAS-TrueNAS) • [Using A Reverse Proxy]({{ site.baseurl }}/docs/Reverse-proxy)
