@@ -13,7 +13,7 @@ Stash internal documentation
 
 <details open markdown="block">
   <summary>
-    Sections
+    Table of Contents
   </summary>
 {: .text-delta }
 1. [Introduction]({{ site.baseurl }}/docs/Manual/Introduction)
