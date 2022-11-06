@@ -24,7 +24,9 @@ Stash is a web front-end app for serving and organizing your porn. Stash current
 ---
 
 Stash 0.5.0 SFW demo (2021-02-23)
-![Stash 0.5.0 SFW demo (2021-02-23)](Home/assets/video.png)](https://player.vimeo.com/video/545323354)
+[![Stash 0.5.0 SFW demo (2021-02-23)](Home/assets/video.png)](https://player.vimeo.com/video/545323354 "Stash 0.5.0 SFW demo (2021-02-23)")
+[![Little red riding hood](http://i.imgur.com/7YTMFQp.png)](https://vimeo.com/3514904 "Little red riding hood - Click to Watch!")
+
 
 ---
 
