@@ -38,7 +38,6 @@ Stash internal documentation
 - [Keyboard Shorcuts]({{ site.baseurl }}/docs/Manual/KeyboardShortcuts)
 - [Contributing]({{ site.baseurl }}/docs/Manual/Contributing)
 - [Further Help]({{ site.baseurl }}/docs/Manual/Help)
-{:toc}
 </details>
 
 ---
