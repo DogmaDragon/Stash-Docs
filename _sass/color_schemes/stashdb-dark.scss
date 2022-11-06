@@ -15,8 +15,8 @@ $search-background-color: $grey-dk-250;
 $code-background-color: #394B59;
 
 .highlight, pre.highlight {
-    background-color: #394B59 ;
+    background-color: #394B59 !important;
 }
 th, td {
-    background-color: #394B59;
+    background-color: #394B59 !important;
 }
