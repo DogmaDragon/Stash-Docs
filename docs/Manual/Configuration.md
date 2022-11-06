@@ -1,4 +1,22 @@
-# Configuration
+---
+layout: default
+title: Configuration
+nav_order: 2
+parent: Manual
+---
+
+# **# Configuration**
+{: .no_toc }
+<details open markdown="block">
+  <summary>
+    Table of Contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
+---
 
 ## Stashes
 
