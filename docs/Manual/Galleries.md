@@ -1,4 +1,22 @@
-# Galleries
+---
+layout: default
+title: Galleries
+nav_order: 6
+parent: Manual
+---
+
+# **Galleries**
+{: .no_toc }
+<details open markdown="block">
+  <summary>
+    Table of Contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
+---
 
 **Note:** images are now included during the scan process and are loaded independently of galleries. It is _no longer necessary_ to have images in zip files to be scanned into your library.
 

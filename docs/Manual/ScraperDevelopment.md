@@ -1,4 +1,23 @@
-# Contributing Scrapers 
+---
+layout: default
+title: Contributing Scrapers
+nav_order: 1
+parent: Scraping
+grand_parent: Manual
+---
+
+# **Contributing Scrapers**
+{: .no_toc }
+<details open markdown="block">
+  <summary>
+    Table of Contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
+---
 
 Scrapers can be contributed to the community by creating a PR in [this repository](https://github.com/stashapp/CommunityScrapers/pulls).
 

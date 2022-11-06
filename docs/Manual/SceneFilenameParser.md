@@ -1,4 +1,23 @@
-# Scene Filename Parser
+---
+layout: default
+title: Scene Filename Parser
+nav_order: 3
+parent: Tasks
+grand_parent: Manual
+---
+
+# **Scene Filename Parser**
+{: .no_toc }
+<details open markdown="block">
+  <summary>
+    Table of Contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
+---
 
 [This tool](/sceneFilenameParser) parses the scene filenames in your library and allows setting the metadata from those filenames.
 

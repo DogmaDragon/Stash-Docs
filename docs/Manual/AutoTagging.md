@@ -1,4 +1,23 @@
-# Auto Tagging
+---
+layout: default
+title: Auto Tagging
+nav_order: 2
+parent: Tasks
+grand_parent: Manual
+---
+
+# **Auto Tagging**
+{: .no_toc }
+<details open markdown="block">
+  <summary>
+    Table of Contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
+---
 
 This task matches your Performers, Studios, and Tags against your media, based on names only. It finds Scenes, Images, and Galleries where the path or filename contains the Performer/Studio/Tag. 
 

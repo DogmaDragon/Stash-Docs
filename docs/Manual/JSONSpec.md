@@ -1,3 +1,24 @@
+---
+layout: default
+title: Import/Export JSON Specification
+nav_order: 4
+parent: Tasks
+grand_parent: Manual
+---
+
+# **Import/Export JSON Specification**
+{: .no_toc }
+<details open markdown="block">
+  <summary>
+    Table of Contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
+---
+
 # Import/Export JSON Specification
 
 The metadata given to Stash can be exported into the JSON format. This structure can be modified, or replicated by other means. The resulting data can then be imported again, giving the possibility for automatic scraping of all kinds. The format of this metadata bulk is a folder structure, containing the following folders:
