@@ -5,7 +5,7 @@ nav_order: 2
 parent: Manual
 ---
 
-# **# Configuration**
+# **Configuration**
 {: .no_toc }
 <details open markdown="block">
   <summary>

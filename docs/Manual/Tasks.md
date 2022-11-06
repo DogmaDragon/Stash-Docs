@@ -1,4 +1,22 @@
-# Tasks
+---
+layout: default
+title: Tasks
+nav_order: 4
+parent: Manual
+---
+
+# **Tasks**
+{: .no_toc }
+<details open markdown="block">
+  <summary>
+    Table of Contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
+---
 
 This page allows you to direct the stash server to perform a variety of tasks.
 
