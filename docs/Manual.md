@@ -7,7 +7,7 @@ has_toc: false
 ---
 # **Stash Manual**
 {: .no_toc }
-Stash internal documentation
+Internal Stash documentation, mirrored from [Stash repository](https://github.com/stashapp/stash/tree/master/ui/v2.5/src/docs/en/Manual).
 
 ---
 
