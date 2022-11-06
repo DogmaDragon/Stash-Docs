@@ -13,3 +13,7 @@ $search-result-preview-color: $grey-dk-000;
 $search-background-color: $grey-dk-250;
 @import "./vendor/OneDarkJekyll/syntax-one-dark-vivid";
 $code-background-color: #394B59;
+
+.highlight, pre.highlight, .hll, pre {
+    background-color: #394B59 !important;
+}
