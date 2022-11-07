@@ -6,9 +6,9 @@ permalink: /
 ---
 # Stash-Docs
 {: .no_toc }
-**Stash documentation**
+**What is Stash?**
 
-Stash is a web front-end app for serving and organizing your porn. Stash currently supports Windows, Linux, and macOS. To download Stash see the [latest releases](https://github.com/stashapp/stash/releases). You can learn more about the software generally via the [README](https://github.com/stashapp/stash/blob/master/README.md) or find answers to [FAQ]({{ site.baseurl }}/docs/FAQ/) here.
+[Stash](https://stashapp.cc){:target="_blank"} is a web front-end app for serving and organizing your porn. Stash currently supports Windows, Linux, and macOS. To download Stash see the [latest releases](https://github.com/stashapp/stash/releases){:target="_blank"}. You can learn more about the software generally via the [README](https://github.com/stashapp/stash/blob/master/README.md){:target="_blank"} or find answers to [FAQ]({{ site.baseurl }}/docs/FAQ/) here.
 
 ---
 
@@ -22,12 +22,6 @@ Stash is a web front-end app for serving and organizing your porn. Stash current
 </details>
 
 ---
-
-## See it in Action
-
-Checkout the (safe for work) demo video below.
-
-[![Stash 0.5.0 SFW demo (2021-02-23)](Home/assets/video.png)](https://player.vimeo.com/video/545323354 "Stash 0.5.0 SFW demo (2021-02-23)")
 
 ## Getting the Latest Stash
 
@@ -56,3 +50,9 @@ Checkout the (safe for work) demo video below.
 ## GUI Front Ends
 
 [(Unofficial) Stash Helper - Windows only](https://github.com/philpw99/Stash_Helper)
+
+## See it in Action
+
+Checkout the (safe for work) demo video below.
+
+[![Stash 0.5.0 SFW demo (2021-02-23)](Home/assets/video.png)](https://player.vimeo.com/video/545323354 "Stash 0.5.0 SFW demo (2021-02-23)")
