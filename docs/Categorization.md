@@ -23,6 +23,11 @@ nav_order: 29
 
 - Home
 - Installation
+  - Installing on Windows
+  - Installing on macOS
+  - Installing on Linux
+  - Installing on FreeNAS TrueNAS
+  - Installing on Synology NAS
 - Manual
   - Introduction
   - Configuration
@@ -55,8 +60,6 @@ nav_order: 29
 - Frequently Asked Questions
 - Galleries
 - Importing via CSV using gql iterate
-- Installing on FreeNAS TrueNAS
-- Installing on Synology NAS
 - JSON Specification
 - Manually Editing the Stash Sqlite3 database
 - Plugins & Scripts
