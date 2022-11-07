@@ -2,6 +2,8 @@
 layout: default
 title: Guides and Tutorials
 nav_order: 7
+has_children: true
+has_toc: false
 ---
 # Guides and Tutorials
 {: .no_toc }

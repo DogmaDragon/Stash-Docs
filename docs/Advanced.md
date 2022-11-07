@@ -2,6 +2,8 @@
 layout: default
 title: Advanced
 nav_order: 8
+has_children: true
+has_toc: false
 ---
 # Advanced
 {: .no_toc }

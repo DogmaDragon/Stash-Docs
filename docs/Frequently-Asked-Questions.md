@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Frequently Asked Questions (FAQ)
+title: Frequently Asked Questions
 nav_order: 9
 ---
 # **Frequently Asked Questions (FAQ)**

@@ -2,6 +2,8 @@
 layout: default
 title: Network
 nav_order: 5
+has_children: true
+has_toc: false
 ---
 # Network
 {: .no_toc }
