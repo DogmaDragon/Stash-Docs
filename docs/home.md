@@ -33,37 +33,25 @@ Checkout the (safe for work) demo video below.
 
 [Synology NAS]({{ site.baseurl }}/docs/Installing-on-Synology-NAS) • [UNRAID]({{ site.baseurl }}/docs/Unraid-Support) • [TrueNAS/FreeNAS]({{ site.baseurl }}/docs/Installing-on-FreeNAS-TrueNAS) • [Using A Reverse Proxy]({{ site.baseurl }}/docs/Reverse-proxy)
 
----
-
 ## Advanced Configuration And Troubleshooting
 
 [Command-Line Flags]({{ site.baseurl }}/docs/Advanced-Configuration-Options) • [Troubleshooting Video Playback Issues]({{ site.baseurl }}/docs/Troubleshooting-video-playback-issues)
-
----
 
 ## Customizing and Expanding Functionality
 
 [Theme Directory]({{ site.baseurl }}/docs/Themes) • [Custom CSS Snippets]({{ site.baseurl }}/docs/Custom-CSS-snippets) • [Plugins/Scripts]({{ site.baseurl }}/docs/Plugins-&--Scripts) • [Scrapers]({{ site.baseurl }}/docs/Scrapers)
 
----
-
 ## Working With The Database
 
 [Backup & Restore]({{ site.baseurl }}/docs/Backup-&-Restore-Database) • [Importing from a CSV file]({{ site.baseurl }}/docs/Importing-via-CSV-using-gql-iterate) •  [Manually Editing The Database]({{ site.baseurl }}/docs/Manually-Editing-the-Stash-Sqlite3-database)
-
----
 
 ## Working With Collections
 
 [Excluding Files From Scans]({{ site.baseurl }}/docs/Exclude-file-configuration)
 
----
-
 ## API
 
 [API Reference]({{ site.baseurl }}/docs/API) • [JSON Specification]({{ site.baseurl }}/docs/JSON-Specification) 
-
----
 
 ## GUI Front Ends
 
