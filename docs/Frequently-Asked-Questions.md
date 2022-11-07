@@ -21,13 +21,6 @@ nav_order: 9
 
 ## Installing and launching Stash
 
-### Installing Stash
-
-| Windows | macOS | Linux | Docker |
-|:---:|:---:|:---:|:---:|
-| ![Windows](FAQ/assets/windows_logo.svg) | ![macOS](FAQ/assets/mac_logo.svg) | ![Linux](FAQ/assets/linux_logo.svg) | ![Docker](FAQ/assets/docker_logo.svg) |
-| [Latest Release](https://github.com/stashapp/stash/releases/latest/download/stash-win.exe) <br /> <sup><sub>[Development Preview](https://github.com/stashapp/stash/releases/download/latest_develop/stash-win.exe)</sub></sup> | [Latest Release (Apple Silicon)](https://github.com/stashapp/stash/releases/latest/download/stash-macos-applesilicon) <br /> <sup><sub>[Development Preview (Apple Silicon)](https://github.com/stashapp/stash/releases/download/latest_develop/stash-macos-applesilicon)</sub></sup> <br />[Latest Release (Intel)](https://github.com/stashapp/stash/releases/latest/download/stash-macos-intel) <br /> <sup><sub>[Development Preview (Intel)](https://github.com/stashapp/stash/releases/download/latest_develop/stash-macos-intel)</sub></sup> | [Latest Release (amd64)](https://github.com/stashapp/stash/releases/latest/download/stash-linux) <br /> <sup><sub>[Development Preview (amd64)](https://github.com/stashapp/stash/releases/download/latest_develop/stash-linux)</sub></sup> <br /> [More Architectures...](https://github.com/stashapp/stash/releases/latest) | [Instructions](docker/production/README.md) <br /> <sup><sub> [Sample docker-compose.yml](docker/production/docker-compose.yml)</sub></sup> |
-
 ### How do I get into Stash once installed?
 
 #### Windows
