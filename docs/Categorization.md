@@ -28,7 +28,8 @@ nav_order: 29
   - Installing on Linux
   - Installing on FreeNAS TrueNAS
   - Installing on Synology NAS
-- Manual
+  - Unraid Support
+- In-app Manual
   - Introduction
   - Configuration
   - Interface Options
@@ -51,30 +52,41 @@ nav_order: 29
   - Keyboard Shorcuts
   - Contributing
   - Further Help
-- Advanced Configuration Options
-- API
-- Authentication Required When Accessing Stash From the Internet
-- Backup & Restore Database
-- Custom CSS snippets
-- Exclude file configuration
-- Frequently Asked Questions
-- Galleries
-- Importing via CSV using gql iterate
-- JSON Specification
-- Manually Editing the Stash Sqlite3 database
-- Plugins & Scripts
-- Reverse proxy
-- Roadmap
-- Scrapers
-- Scraping configuration
-- Themes
-  - Theme Pulsar
-  - Theme Light Pulsar
-  - Theme Night
-  - Theme Plex
-  - Theme Black Hole
-  - Modern Dark
-- Troubleshooting video playback issues
-- Unraid Support
-- User Guides
+- Add-ons
+  - Scrapers
+    - Scraping configuration
+  - Plugins
+  - Scripts
+  - Userscripts
+  - Utilities
+  - Third-Party Integrations
+- User Interface (UI)
+  - Themes
+    - Theme Pulsar
+    - Theme Light Pulsar
+    - Theme Night
+    - Theme Plex
+    - Theme Black Hole
+    - Modern Dark  
+  - Custom CSS snippets
+- Network
+  - API
+  - Authentication Required When Accessing Stash From the Internet
+  - Reverse Proxy
+- Guides and Tutorials
+  - Backup & Restore Database
+  - Exclude file configuration
+  - Troubleshooting video playback issues
   - Guide to Scraping
+- Advanced
+  - Advanced Configuration Options
+  - Importing via CSV using gql iterate
+  - Manually Editing the Stash Sqlite3 database
+- Frequently Asked Questions (FAQ)
+
+
+
+
+
+
+  
