@@ -822,6 +822,8 @@ Details
 ```
 Title
 Details
+Code
+Director
 URL
 Date
 Image
