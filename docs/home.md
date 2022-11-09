@@ -55,4 +55,4 @@ permalink: /
 
 Checkout the (safe for work) demo video below.
 
-[![Stash 0.5.0 SFW demo (2021-02-23)](Home/assets/video.png)](https://player.vimeo.com/video/545323354 "Stash 0.5.0 SFW demo (2021-02-23)")
+[![Stash 0.5.0 SFW demo (2021-02-23)](Home/assets/video.png)](https://player.vimeo.com/video/545323354 "Stash 0.5.0 SFW demo (2021-02-23)"){:target="_blank"}

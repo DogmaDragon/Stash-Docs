@@ -2,7 +2,7 @@
 layout: default
 title: Manually Editing the Stash Sqlite3 Database
 nav_order: 3
-parent: Advanced
+parent: Advanced Tutorials
 ---
 # **Manually Editing the Stash Sqlite3 Database**
 {: .no_toc }

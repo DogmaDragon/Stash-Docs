@@ -2,7 +2,7 @@
 layout: default
 title: Backup & Restore Database
 nav_order: 1
-parent: Guides and Tutorials
+parent: Beginner Guides
 ---
 # **Backup & Restore Database**
 {: .no_toc }

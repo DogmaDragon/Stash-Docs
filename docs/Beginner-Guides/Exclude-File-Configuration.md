@@ -2,7 +2,7 @@
 layout: default
 title: Exclude File Configuration
 nav_order: 2
-parent: Guides and Tutorials
+parent: Beginner Guides
 ---
 # **Exclude File Configuration**
 {: .no_toc }

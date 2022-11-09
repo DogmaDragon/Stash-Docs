@@ -2,7 +2,7 @@
 layout: default
 title: Troubleshooting Video Playback
 nav_order: 3
-parent: Guides and Tutorials
+parent: Beginner Guides
 ---
 # **Troubleshooting Video Playback**
 {: .no_toc }

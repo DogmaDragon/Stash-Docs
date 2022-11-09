@@ -2,7 +2,7 @@
 layout: default
 title: Guide to Scraping
 nav_order: 4
-parent: Guides and Tutorials
+parent: Beginner Guides
 ---
 {: .warning }
 Some links are broken!

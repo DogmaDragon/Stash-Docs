@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Guides and Tutorials
-nav_order: 7
+title: Beginner Guides
+nav_order: 4
 has_children: true
 has_toc: false
 ---
-# Guides and Tutorials
+# **Beginner Guides**
 {: .no_toc }
 
 ---

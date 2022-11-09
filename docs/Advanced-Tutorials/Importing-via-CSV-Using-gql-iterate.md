@@ -2,7 +2,7 @@
 layout: default
 title: Importing via CSV Using gql-iterate
 nav_order: 2
-parent: Advanced
+parent: Advanced Tutorials
 ---
 # **Importing via CSV Using gql-iterate**
 {: .no_toc }

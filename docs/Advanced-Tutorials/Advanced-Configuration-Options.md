@@ -2,7 +2,7 @@
 layout: default
 title: Advanced Configuration Options
 nav_order: 1
-parent: Advanced
+parent: Advanced Tutorials
 ---
 # **Advanced Configuration Options**
 {: .no_toc }

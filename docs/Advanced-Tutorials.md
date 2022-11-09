@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Advanced
+title: Advanced Tutorials
 nav_order: 8
 has_children: true
 has_toc: false
 ---
-# Advanced
+# Advanced Tutorials
 {: .no_toc }
 
 ---
