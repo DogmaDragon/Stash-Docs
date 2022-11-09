@@ -8,7 +8,7 @@ permalink: /
 {: .no_toc }
 **What is Stash?**
 
-[Stash](https://stashapp.cc){:target="_blank"} is a web front-end app for serving and organizing your porn. Stash currently supports Windows, Linux, and macOS. To download Stash see the [latest releases](https://github.com/stashapp/stash/releases){:target="_blank"}. You can learn more about the software generally via the [README](https://github.com/stashapp/stash/blob/master/README.md){:target="_blank"} or find answers to [FAQ]({{ site.baseurl }}/docs/FAQ/) here.
+[Stash](https://stashapp.cc){:target="_blank"} is a web front-end app for serving and organizing your porn. Stash currently supports Windows, Linux, and macOS. To download Stash see the [latest releases](https://github.com/stashapp/stash/releases){:target="_blank"}. You can learn more about the software generally via the [README](https://github.com/stashapp/stash/blob/master/README.md){:target="_blank"} or find answers to [FAQ](Frequently-Asked-Questions) here.
 
 ---
 
