@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Installation
+title: Getting Started
 nav_order: 2
 has_children: true
 has_toc: false
 ---
-# Installation
+# Getting Started
 {: .no_toc }
 
 ---

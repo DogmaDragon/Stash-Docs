@@ -2,7 +2,7 @@
 layout: default
 title: Installing on macOS
 nav_order: 2
-parent: Installation
+parent: Getting Started
 ---
 # Installing on macOS
 {: .no_toc }

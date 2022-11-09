@@ -8,7 +8,7 @@ permalink: /
 {: .no_toc }
 **What is Stash?**
 
-[Stash](https://stashapp.cc){:target="_blank"} is a web front-end app for serving and organizing your porn. Stash currently supports Windows, Linux, and macOS. To download Stash see the [latest releases](https://github.com/stashapp/stash/releases){:target="_blank"}. You can learn more about the software generally via the [README](https://github.com/stashapp/stash/blob/master/README.md){:target="_blank"} or find answers to [FAQ](Frequently-Asked-Questions) here.
+[Stash](https://stashapp.cc){:target="_blank"} is a web front-end app for serving and organizing your porn collection. Stash currently supports Windows, Linux, and macOS. To download Stash see the [latest releases](https://github.com/stashapp/stash/releases){:target="_blank"}. You can learn more about the software generally via the [README](https://github.com/stashapp/stash/blob/master/README.md){:target="_blank"}on offical repository or find answers to [Frequently Asked Questions (FAQ)]({{ site.baseurl }}/docs/Frequently-Asked-Questions/) here.
 
 ---
 
@@ -23,36 +23,12 @@ permalink: /
 
 ---
 
-## Getting the Latest Stash
+## Stash in Action
 
-[Synology NAS]({{ site.baseurl }}/docs/Installing-on-Synology-NAS) • [UNRAID]({{ site.baseurl }}/docs/Unraid-Support) • [TrueNAS/FreeNAS]({{ site.baseurl }}/docs/Installing-on-FreeNAS-TrueNAS) • [Using A Reverse Proxy]({{ site.baseurl }}/docs/Reverse-proxy)
+---
 
-## Advanced Configuration And Troubleshooting
-
-[Command-Line Flags]({{ site.baseurl }}/docs/Advanced-Configuration-Options) • [Troubleshooting Video Playback Issues]({{ site.baseurl }}/docs/Troubleshooting-video-playback-issues)
-
-## Customizing and Expanding Functionality
-
-[Theme Directory]({{ site.baseurl }}/docs/Themes) • [Custom CSS Snippets]({{ site.baseurl }}/docs/Custom-CSS-snippets) • [Plugins/Scripts]({{ site.baseurl }}/docs/Plugins-&--Scripts) • [Scrapers]({{ site.baseurl }}/docs/Scrapers)
-
-## Working With The Database
-
-[Backup & Restore]({{ site.baseurl }}/docs/Backup-&-Restore-Database) • [Importing from a CSV file]({{ site.baseurl }}/docs/Importing-via-CSV-using-gql-iterate) •  [Manually Editing The Database]({{ site.baseurl }}/docs/Manually-Editing-the-Stash-Sqlite3-database)
-
-## Working With Collections
-
-[Excluding Files From Scans]({{ site.baseurl }}/docs/Exclude-file-configuration)
-
-## API
-
-[API Reference]({{ site.baseurl }}/docs/API) • [JSON Specification]({{ site.baseurl }}/docs/JSON-Specification) 
-
-## GUI Front Ends
-
-[(Unofficial) Stash Helper - Windows only](https://github.com/philpw99/Stash_Helper)
-
-## See it in Action
-
-Checkout the (safe for work) demo video below.
+Safe for work demo video of how Stash looks and what functionality it has. 
+{.warning}
+Video is a bit outdated and more functionality was added since it was created. 
 
 [![Stash 0.5.0 SFW demo (2021-02-23)](Home/assets/video.png)](https://player.vimeo.com/video/545323354 "Stash 0.5.0 SFW demo (2021-02-23)"){:target="_blank"}

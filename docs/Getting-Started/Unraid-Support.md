@@ -2,7 +2,7 @@
 layout: default
 title: Unraid Support
 nav_order: 6
-parent: Installation
+parent: Getting Started
 ---
 # Unraid Support
 {: .no_toc }
