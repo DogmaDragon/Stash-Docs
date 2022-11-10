@@ -52,13 +52,13 @@ callouts:
     color: red
   note:
     title: Note
-    color: purple
+    color: yellow 
   new:
     title: New
     color: green
   important:
     title: Important
-    color: green  
+    color: blue 
 
 kramdown:
   syntax_highlighter_opts:
