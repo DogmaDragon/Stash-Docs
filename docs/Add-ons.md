@@ -21,7 +21,7 @@ has_toc: false
 
 ---
 
-# Third-Party Plugins
+## Third-Party Plugins
 Stash plugins add further features that Stash doesn't itself provide.  There are also several [officially hosted plugins and scripts](https://github.com/stashapp/CommunityScripts/blob/main/PLUGINS-LIST.md) available via the CommunityScripts repository. This document contains a list of plugins and scripts created by users and contributors.
 
 To install a plugin, save them to `%USERPROFILE%\.stash\plugins` on Windows or `/root/.stash/plugins` on Unix systems (Mac, Linux, etc.). The `plugins` directory won't exist by default so you will have to create it. Once installed, go to the Plugins page in your Stash settings and reload plugins.
@@ -43,7 +43,9 @@ Scraping | [OnlyFans Scraper](https://github.com/ALonelyJuicebox/OFMetadataToSta
 Scraping | [Scrape with](https://github.com/Tweeticoats/stash-plugin-scrape_with)|Tweeticoats | Batch scrape scenes and performers. For example tag a scene with scrape_with_xbvr and run the task to run that scraper. Run artist scrapers on all performers missing a url. Run the performer image scraper on all performers.
 VR | [stash-deovr](https://github.com/Tweeticoats/stash-deovr) | Tweeticoats | Create an index json file /deovr used by the vr player allowing you to use DeoVR to play 2d and 3d videos from stash.
 
-# Scripts
+---
+
+## Scripts
 Scripts are standalone programs that can interact with stash either through graphql queries or by directly editing stash's database/files.
 
 To install a script follow the script's install instructions.
@@ -54,14 +56,18 @@ Category | Script | Author | Description
 -|-|-|-
 Maintenance | [SQLITE Renamer for Stash](https://github.com/Belleyy/Stash-Renamer-Python) | Belley  | Renames your files using stash's metadata
 
-# Third-Party Integrations
+---
+
+## Third-Party Integrations
 Integrations are repositories developed to integrate Stash into other programs.
 
 Category | Name | Author | Description
 -|-|-|-
 Kodi | [plugin.video.stash](https://github.com/gitgiggety/plugin.video.stash) | gitgiggety | plugin.video.stash is an add-on for the Kodi home theater center software to incorporate Stash, an organizer for your porn
 
-# Utilities
+---
+
+## Utilities
 
 Other external applications that utilise or interact with stash in some way.
 

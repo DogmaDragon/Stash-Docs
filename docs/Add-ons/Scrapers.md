@@ -21,11 +21,11 @@ parent: Add-ons
 
 ---
 
-# Scrapers
+## Scrapers
 Scrapers are the way to retrieve information from websites for your movies/scenes/galleries/performers...etc. Using scrapers wisely, you can avoid typing information manually and repetitively. They can help you quickly establish links between movies/scenes and performers/studios, add relative tags, then download covers/posters for easy recognition. It's a great feature to organize your video or image collections.<br>
 All scrapers are ".yml" files. Some scrapers like script scrapers also come with their own ".py" files or ".js" files.
 
-## Installation
+### Installation
 To install a scraper:
   1) Make sure you have the "scrapers" folder in the same location of your Stash app. If you don't have it, create that folder/directory. You can also specify the name of this folder in the config.yml.
   2) Go to the [community scrapers repo](https://github.com/stashapp/CommunityScrapers) and download the scraper you want. Read the [scrapers list](https://github.com/stashapp/CommunityScrapers/blob/master/SCRAPERS-LIST.md) and make sure which one to download. All scrapers are in .yml format. Some of them requires Python, if you use those, you need to install Python in your machine, and don't forget to get the corresponding .py file as well.
@@ -35,6 +35,8 @@ To install a scraper:
 * If that's a URL scraper, you need to paste the URL in its "URL" blanket, and the scrape icon next to it should light up.
 * If that's a Search-By-Name scraper, you can provide the name and choose "Scrape With...", and the scraper should fetch the list of potential matches for you.
 5) You will preview the scrape result before you commit the change. Check on the left will keep the original value, check on the right will make the change.
+
+---
 
 ## Scraper Types
 
@@ -57,11 +59,17 @@ This type of scrapers is mostly the same as XPath/JSON scrapers, except it will 
 - **Python / Javascript Scrapers**<br>
 This type of scrapers will launch python or javascripts to retrieve information from websites. Script scrapers are powerful, versatile and cross-platform. So they usually can do much more than regular scrapers. To install this kind of scrapers, you need to copy not only the .yml file, but also all the script files like .py or .js that associated with it.
 
+---
+
 ## More Details
 You can view the [detail information about scrapers here](https://github.com/stashapp/stash/blob/develop/ui/v2.5/src/docs/en/Scraping.md) or [Community Scrapers Readme here](https://github.com/stashapp/CommunityScrapers).
 
+---
+
 ## Create your own.
 To create your own scraper, there is [detail information about that as well](https://github.com/stashapp/stash/blob/develop/ui/v2.5/src/docs/en/ScraperDevelopment.md). Best way to start is to read the simple ones and understand how xpath works. The [XPath Cheetsheet](https://devhints.io/xpath) is quite useful in creating a yml file. In Firefox you can use xpath search in "Web Developer Tools (F12)". The "search HTML" bar actually accepts xpath searches. You can use it to verify your xpath queries.
+
+---
 
 ## Contribution
 The Scraper community always welcome new members. If you create a nice scraper and find it stable and useful, you can share it via [the GitHub repo](https://github.com/stashapp/CommunityScrapers). Create a pull request, and let the mod review your work. The mods are busy, so it will probably take a few days, or a couple of weeks, but it will be a great feeling once your contribution is accepted by the community.

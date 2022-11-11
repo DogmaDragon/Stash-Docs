@@ -21,10 +21,12 @@ grand_parent: Add-ons
 
 ---
 
-# Deprecation notice
+## Deprecation notice
 This wiki page should be considered deprecated. The [manual page](https://github.com/stashapp/stash/blob/develop/ui/v2.5/src/docs/en/Scraping.md) should be considered as the up to date documentation for scraping. Changes to the documentation should be made via pull request.
 
-# Scraping Configuration
+---
+
+## Scraping Configuration
 
 As of develop release 5078402, custom scraping of performer and scene details is now supported.
 
@@ -32,7 +34,9 @@ By default, Stash looks for scraper configurations in the `scrapers` sub-directo
 
 Custom scrapers are added by adding configuration yaml files (format: `scrapername.yml`) to the `scrapers` directory. The configuration file looks like the following:
 
-# Basic scraper configuration file structure
+---
+
+## Basic scraper configuration file structure
 
 ```
 name: <site>
@@ -64,9 +68,11 @@ The scraping types and their required fields are outlined in the following table
 
 URL-based scraping accepts multiple scrape configurations, and each configuration requires a `url` field. stash iterates through these configurations, attempting to match the entered URL against the `url` fields in the configuration. It executes the first scraping configuration where the entered URL contains the value of the `url` field. 
 
-# Scraper Actions
+---
 
-## Script
+## Scraper Actions
+
+### Script
 
 Executes a script to perform the scrape. The `script` field is required for this action and accepts a list of string arguments. For example:
 
@@ -158,7 +164,7 @@ elif sys.argv[1] == "scrapeURL":
     print(json.dumps(ret))
 ```
 
-## scrapeXPath
+### scrapeXPath
 
 This action scrapes a web page using an xpath configuration to parse. This action is valid for `performerByName`, `performerByURL` and `sceneByURL` only.
 
@@ -174,7 +180,7 @@ sceneByURL:
 
 The above configuration requires that `sceneScraper` exists in the `xPathScrapers` configuration.
 
-### Use with `performerByName`
+#### Use with `performerByName`
 
 For `performerByName`, the `queryURL` field must be present also. This field is used to perform a search query URL for performer names. The placeholder string sequence `{}` is replaced with the performer name search string. For the subsequent performer scrape to work, the `URL` field must be filled in with the URL of the performer page that matches a URL given in a `performerByURL` scraping configuration. For example:
 
@@ -198,7 +204,7 @@ xPathScrapers:
     # ... performer scraper details ...
 ```
 
-### XPath scrapers configuration
+#### XPath scrapers configuration
 
 The top-level `xPathScrapers` field contains xpath scraping configurations, freely named. The scraping configuration may contain a `common` field, and must contain `performer` or `scene` depending on the scraping type it is configured for. 
 
@@ -222,7 +228,7 @@ performer:
     # post-processing config values
 ```
 
-#### Common fragments
+##### Common fragments
 
 The `common` field is used to configure xpath fragments that can be referenced in the xpath strings. These are key-value pairs where the key is the string to reference the fragment, and the value is the string that the fragment will be replaced with. For example:
 
@@ -235,7 +241,7 @@ performer:
 
 The `Measurements` xpath string will replace `$infoPiece` with `//div[@class="infoPiece"]/span`, resulting in: `//div[@class="infoPiece"]/span[text() = 'Measurements:']/../span[@class="smallInfo"]`.
 
-#### Post-processing options
+##### Post-processing options
 
 The following post-processing keys are available:
 * `concat`: if an xpath matches multiple elements, and `concat` is present, then all of the elements will be concatenated together
@@ -246,7 +252,7 @@ The following post-processing keys are available:
 
 Post-processing is done in order of the fields above - `concat`, `regex`, `subscraper`, `parseDate` and then `split`.
 
-#### Example
+##### Example
 
 A performer and scene xpath scraper is shown as an example below:
 
@@ -306,13 +312,13 @@ xPathScrapers:
 
 See also [#333](https://github.com/stashapp/stash/pull/333) for more examples.
 
-### XPath resources:
+#### XPath resources:
 
 - Test XPaths in Firefox: https://addons.mozilla.org/en-US/firefox/addon/try-xpath/
 - XPath cheatsheet: https://devhints.io/xpath
 
-### Object fields
-#### Performer
+#### Object fields
+##### Performer
 
 ```
 Name
@@ -336,7 +342,7 @@ Image
 
 *Note:*  - `Gender` must be one of `male`, `female`, `transgender_male`, `transgender_female` (case insensitive).
 
-#### Scene
+##### Scene
 _From the scene page, Studio, Movies, Tags, and Performers are matched based on their Name field._
 ```
 Title
@@ -349,18 +355,18 @@ Movies (see Movie Fields)
 Tags (see Tag fields)
 Performers (list of Performer fields)
 ```
-#### Studio
+##### Studio
 ```
 Name
 URL
 ```
 
-#### Tag
+##### Tag
 ```
 Name
 ```
 
-#### Movie
+##### Movie
 ```
 Name
 Aliases
@@ -372,7 +378,7 @@ Synopsis
 URL
 ```
 
-## Stash
+### Stash
 
 A different stash server can be configured as a scraping source. This action applies only to `performerByName`, `performerByFragment`, and `sceneByFragment` types. This action requires that the top-level `stashServer` field is configured.
 
@@ -392,12 +398,12 @@ stashServer:
   url: http://stashserver.com:9999
 ```
 
-## Debugging support
+### Debugging support
 To print the received html from a scraper request to the log file, add the following to your scraper yml file:
 ```
 debug:
   printHTML: true
 ```
 
-## Community Scrapers
+### Community Scrapers
 You can always have a look at the scrapers provided by the stash community over [here](https://github.com/stashapp/CommunityScrapers)
