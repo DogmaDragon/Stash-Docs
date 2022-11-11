@@ -21,7 +21,11 @@ parent: Network
 ---
 
 The use of a reverse proxy for stash is possible. 
+
+---
+
 ## General
+
 Generally, the following headers will need to be set (check your proxy's documentation for how to configure) .
 - Host (http host)
 - X-Real-IP
@@ -30,14 +34,21 @@ Generally, the following headers will need to be set (check your proxy's documen
 
 See [issue 134](https://github.com/stashapp/stash/pull/134) for more information.
 
+---
+
 ## Setting External URL
+
 You can set the base URL that will be served by Stash by adding an `external_host:` setting in your Stash config.yml and assigning it the full publicly accessible url
 ```
 external_host: http://example.domain.com
 ```
 
+---
+
 ## Server Configuration Examples
+
 ### NGinx
+
 ```bash
 location / {
     proxy_pass http://127.0.0.1:9999;
@@ -47,6 +58,9 @@ location / {
     proxy_set_header X-Forwarded-Proto $scheme;
 }
 ```
+
+---
+
 ## NGinX + Docker (Linuxserver Letsencrypt)
 If you are using the linuxserver letencrypt docker you can use create a `stash.subdomain.conf` file in your `proxy-confs` folder and use this as the config:
 ```bash
@@ -119,6 +133,7 @@ server {
 ```
 
 ### Apache
+
 ```
 ProxyPass "/stash" "http://127.0.0.1:9999"
 ProxyPassReverse "/stash" "http://127.0.0.1:9999"
@@ -172,7 +187,10 @@ reverse_proxy 127.0.0.1:9999 {
 }
 ```
 
+---
+
 ## Troubleshooting
+
 **504 Errors** 
 - In some cases with big database files you might encounter `504` errors during stash db migration due to timeout. Adjusting the `proxy_read_timeout` value ( `proxy.conf` file in Letencrypt/Swag docker container)
 

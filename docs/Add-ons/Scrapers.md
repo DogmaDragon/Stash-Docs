@@ -2,7 +2,7 @@
 layout: default
 title: Scrapers
 nav_order: 1
-has_children: true
+has_children: false
 parent: Add-ons
 ---
 # Scrapers

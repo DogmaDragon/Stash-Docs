@@ -26,9 +26,10 @@ The following is a list of some useful CSS snippets. You may use them by copying
 
 Note: Future releases of Stash may break these CSS tweaks. CSS tweaks may not appear without flushing the Stash browser cache first on Chrome.
 
-# Scenes
+## Scenes
 
-## Fit more thumbnails on each row
+### Fit more thumbnails on each row
+
 Reduce left and right padding on Scene and Performer grid pages allowing for more thumbnails on each row.
 
 ```css
@@ -37,7 +38,7 @@ Reduce left and right padding on Scene and Performer grid pages allowing for mor
 .grid { padding: 0px !important; }
 ```
 
-## Allow for longer string when displaying "Studio as Text" on scene thumbnails
+### Allow for longer string when displaying "Studio as Text" on scene thumbnails
 
 ```css
 /* [Scenes tab] Allow for longer string when displaying "Studio as Text" on scene thumbnails */
@@ -50,7 +51,7 @@ Reduce left and right padding on Scene and Performer grid pages allowing for mor
 }
 ```
 
-## Hide scene specs (resolution, duration) from scene card
+### Hide scene specs (resolution, duration) from scene card
 
 ```css
 /* [Scenes tab] Hide scene specs (resolution, duration) from scene card */
@@ -60,7 +61,7 @@ Reduce left and right padding on Scene and Performer grid pages allowing for mor
 }
 ```
 
-## Hide studio logo/text from scene card
+### Hide studio logo/text from scene card
 
 ```css
 /* [Scenes tab] Hide studio logo/text from scene card */
@@ -69,7 +70,8 @@ Reduce left and right padding on Scene and Performer grid pages allowing for mor
   display: none;
 }
 ```
-## Make the list of tags take up less width
+### Make the list of tags take up less width
+
 ```css
 /* [Scenes tab] Make the list of tags take up less width */
 
@@ -78,7 +80,8 @@ Reduce left and right padding on Scene and Performer grid pages allowing for mor
 }
 ```
 
-## Swap studio and resolution/duration positions
+### Swap studio and resolution/duration positions
+
 ```css
 /* [Scenes tab] Swap studio and resolution/duration positions */
 
@@ -96,7 +99,8 @@ Reduce left and right padding on Scene and Performer grid pages allowing for mor
 }
 ```
 
-## Adjust the mouse over behaviour in wall mode
+### Adjust the mouse over behaviour in wall mode
+
 ```css
 /* [Scenes tab] Adjust the mouse over behaviour in wall mode */
 
@@ -111,7 +115,8 @@ Reduce left and right padding on Scene and Performer grid pages allowing for mor
 }
 ```
 
-## Disable zoom on hover in wall mode
+### Disable zoom on hover in wall mode
+
 ```css
 /* [Scenes tab] Disable zoom on hover in wall mode */
 
@@ -123,7 +128,7 @@ Reduce left and right padding on Scene and Performer grid pages allowing for mor
 }
 ```
 
-## Hide the scene scrubber
+### Hide the scene scrubber
 
 This will hide the large scene scrubber under the video player and max out the player's height.
 
@@ -137,7 +142,7 @@ This will hide the large scene scrubber under the video player and max out the p
 }
 ```
 
-## Hide the truncated text
+### Hide the truncated text
 
 This will hide the truncated text that appears under the tile and date.
 
@@ -149,9 +154,11 @@ This will hide the truncated text that appears under the tile and date.
 }
 ```
 
-# Performers
+---
 
-## Show entire performer image in performer card
+## Performers
+
+### Show entire performer image in performer card
 
 ```css
 /* [Performers tab] Show entire performer image in performer card */
@@ -161,7 +168,8 @@ This will hide the truncated text that appears under the tile and date.
 }
 ```
 
-## Show a larger image in performer's page for desktop
+### Show a larger image in performer's page for desktop
+
 ```css
 .performer-image-container{
   flex: 0 0 50%;
@@ -173,7 +181,8 @@ This will hide the truncated text that appears under the tile and date.
   max-width: 50%;
 }
 ```
-## Show larger performer images in performers list.
+### Show larger performer images in performers list
+
 ```css
 /* original value: height: 30rem; min-width:13.25rem; */
 .performer-card-image{
@@ -182,7 +191,8 @@ This will hide the truncated text that appears under the tile and date.
 }
 ```
 
-## Move the buttons in the Performer's edit panel to the top instead of bottom
+### Move the buttons in the Performer's edit panel to the top instead of bottom
+
 ```css
 /* [Performers tab] Move the buttons in the Performer's edit panel to the top instead of bottom (in newer version of Stash, the buttons are already positioned both at top and bottom.  */
 
@@ -199,7 +209,8 @@ form#performer-edit {
 }
 ```
 
-## Move the tags row in the Performer's edit panel to the second position (just after name)
+### Move the tags row in the Performer's edit panel to the second position (just after name)
+
 ```css
 /* [Performers tab] Move the tags row in the Performer's edit panel to the second position (just after name).  */
 
@@ -215,9 +226,11 @@ form#performer-edit {
 }
 ```
 
-# Galleries
+---
 
-## Grid view for galleries
+## Galleries
+
+### Grid view for galleries
 
 ```css
 /* [Galleries tab] Grid view for galleries */
@@ -235,8 +248,12 @@ form#performer-edit {
 }
 ```
 
-# Images
-## Disable lightbox animation
+---
+
+## Images
+
+### Disable lightbox animation
+
 ```css
 /* [Images tab] Disable lightbox animation */
 
@@ -245,7 +262,8 @@ form#performer-edit {
 }
 ```
 
-## Don't crop preview thumbnails
+### Don't crop preview thumbnails
+
 ```css
 /* [Images tab] Don't crop preview thumbnails */
 
@@ -255,10 +273,17 @@ form#performer-edit {
   min-width: initial;
 }
 ```
-# Movies
-## Better Movie layout for desktops.
+
+---
+
+## Movies
+
+### Better Movie layout for desktops
+
 Making the front and back image much bigger. Left panel uses 70% while the right uses 30%.
-### Layout 1, regular size poster.
+
+#### Layout 1, regular size poster.
+
 ```css
 /* [Movies tab] Better Movie layout for desktops: Regular size poster */
 
@@ -275,7 +300,8 @@ Making the front and back image much bigger. Left panel uses 70% while the right
   flex: 0 0 500px
 }
 ```
-### Layout 2, larger size poster.
+#### Layout 2, larger size poster.
+
 ```css
 /* [Movies tab] Better Movie layout for desktops: Larger size poster */
 
@@ -294,9 +320,11 @@ Making the front and back image much bigger. Left panel uses 70% while the right
 }
 ```
 
-# Global
+---
 
-## Change the order of navigation bar buttons
+## Global
+
+### Change the order of navigation bar buttons
 
 Use `order` values below 0 to move specific buttons to the left of the non-ordered buttons,  
 and values above 1 to move them to the right of the non-ordered buttons.
@@ -324,7 +352,7 @@ div.nav-link[data-rb-event-key="/scenes"] {
 }
 ```
 
-## Hide the Donate button
+### Hide the Donate button
 
 ```css
 /* [Global changes] Hide the Donate button */
@@ -334,7 +362,7 @@ div.nav-link[data-rb-event-key="/scenes"] {
 }
 ```
 
-## Blur NSFW images
+### Blur NSFW images
 
 Use for when working on stash but don't want to expose NSFW images and text. May not be exhaustive:
 

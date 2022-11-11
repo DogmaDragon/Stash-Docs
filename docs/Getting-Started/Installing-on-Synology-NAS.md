@@ -20,13 +20,16 @@ parent: Getting Started
 
 ---
 
-# Foreword
+## Foreword
 
 Synology devices comes in two categories : those who support containerization through Docker, and those who don't. To see in which category you stand, refer to the "Applied Models" section of [the Docker Package page](https://www.synology.com/dsm/packages/Docker).
 
 Now, follow the installation instructions based on whether you [can use Docker](#to-install-stash-with-docker) or [you cannot use Docker](#to-install-stash-without-docker).
 
+---
+
 ## To install Stash with Docker
+
 - Make sure [the Docker app is installed](https://blog.pavelsklenar.com/how-to-install-and-use-docker-on-synology/) and running correctly.
 - [Search the registry for stash](https://hub.docker.com/r/stashapp/stash) and install.
 - Create a stash image with the following set up in 'advanced options'
@@ -60,6 +63,8 @@ You will need to set a default port in the "Port" tab, otherwise Docker will ass
 Make sure that "Use The Same Network As Docker Host" is checked.
 
 (thanks to backer Herelam80 for these instructions)
+
+---
 
 ## To install Stash without Docker
 

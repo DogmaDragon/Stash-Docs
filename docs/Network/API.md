@@ -30,6 +30,7 @@ In that case you can either visit our [discord channel](https://discord.gg/2TsNF
 For up to date info you can check stash's playground `http://IP:PORT/playground` ( SCHEMA/DOCS section to the right).
 
 ### Scan for new files
+
 Request: `HTTP-POST`
 
 Payload (set **useFileMetadata** to ```true``` or ```false``` if you want to get metadata from the media file ):
@@ -41,7 +42,6 @@ Payload (set **useFileMetadata** to ```true``` or ```false``` if you want to get
 _Example using curl_
 
 `curl -X POST -H "Content-Type: application/json" --data '{ "query": " mutation { metadataScan (input: { useFileMetadata: false} ) }" }' localhost:9998/graphql`
-
 
 ### Authentication
 
@@ -128,6 +128,7 @@ _Example using curl_
 `curl -X POST -H "Content-Type: application/json" --data '{ "query": "{ scrapeFreeonesPerformerList (query: \"bella\" ) }" }' localhost:9998/graphql`
 
 ### Get System Status
+
 Request: `HTTP-POST`
 ```json
 {
