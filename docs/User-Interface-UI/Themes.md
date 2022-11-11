@@ -42,9 +42,9 @@ If you would like to develop your own theme, we have a [reference guide of CSS s
 
 | Name                                                         | Preview                                                               |
 | ---------------------------------------------------------------- | ------------------------------------------------------------------------- |
-| [Pulsar]({{ site.baseurl }}/docs/User-Interface-UI/Themes/Theme-Pulsar)             | ![Screenshot of Pulsar Theme](/docs/User-Interface-UI/Themes/assets/Pulsar-preview.jpg)             |
-| [Light Pulsar]({{ site.baseurl }}/docs/User-Interface-UI/Themes/Theme-Light-Pulsar) | ![Screenshot of Light Pulsar Theme](/docs/User-Interface-UI/Themes/assets/Light-Pulsar-preview.jpg) |
-| [Night]({{ site.baseurl }}/docs/User-Interface-UI/Themes/Theme-Night)               | ![Screenshot of Night Theme](/docs/User-Interface-UI/Themes/assets/Night-preview.png)               |
-| [Plex]({{ site.baseurl }}/docs/User-Interface-UI/Themes/Theme-Plex)                 | ![Screenshot of Plex Theme](/docs/User-Interface-UI/Themes/assets/Plex-preview.png)                 |
-| [Black Hole]({{ site.baseurl }}/docs/User-Interface-UI/Themes/Theme-Black-Hole)     | ![Screenshot of Black Hole Theme](/docs/User-Interface-UI/Themes/assets/Black-Hole-preview.png)     |
-| [Modern Dark]({{ site.baseurl }}/docs/User-Interface-UI/Themes/Theme-Modern-Dark)   | ![Screenshot of Modern Dark](/docs/User-Interface-UI/Themes/assets/Modern-Dark-preview.jpg)         |
+| [Pulsar]({{ site.baseurl }}/docs/User-Interface-UI/Themes/Theme-Pulsar)             | ![Screenshot of Pulsar Theme]({{ site.baseurl }}/docs/User-Interface-UI/Themes/assets/Pulsar-preview.jpg)             |
+| [Light Pulsar]({{ site.baseurl }}/docs/User-Interface-UI/Themes/Theme-Light-Pulsar) | ![Screenshot of Light Pulsar Theme]({{ site.baseurl }}/docs/User-Interface-UI/Themes/assets/Light-Pulsar-preview.jpg) |
+| [Night]({{ site.baseurl }}/docs/User-Interface-UI/Themes/Theme-Night)               | ![Screenshot of Night Theme]({{ site.baseurl }}/docs/User-Interface-UI/Themes/assets/Night-preview.png)               |
+| [Plex]({{ site.baseurl }}/docs/User-Interface-UI/Themes/Theme-Plex)                 | ![Screenshot of Plex Theme]({{ site.baseurl }}/docs/User-Interface-UI/Themes/assets/Plex-preview.png)                 |
+| [Black Hole]({{ site.baseurl }}/docs/User-Interface-UI/Themes/Theme-Black-Hole)     | ![Screenshot of Black Hole Theme]({{ site.baseurl }}/docs/User-Interface-UI/Themes/assets/Black-Hole-preview.png)     |
+| [Modern Dark]({{ site.baseurl }}/docs/User-Interface-UI/Themes/Theme-Modern-Dark)   | ![Screenshot of Modern Dark]({{ site.baseurl }}/docs/User-Interface-UI/Themes/assets/Modern-Dark-preview.jpg)         |
