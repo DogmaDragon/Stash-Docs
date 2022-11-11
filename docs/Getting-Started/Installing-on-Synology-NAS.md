@@ -102,6 +102,7 @@ With your terminal, connect to your NAS using an account that is part of the _ad
 ssh admin@nas-hostname
 ```
 
+{:style="counter-reset:none"}
 2. navigate to the _stash_ user home directory
 
 ```
@@ -110,6 +111,7 @@ cd ../stash/
 
 ### Download Stash
 
+{:style="counter-reset:none"}
 3. Download the lastest ARM64 version of stash and its checksum from github
 
 ```
@@ -117,6 +119,7 @@ wget https://github.com/stashapp/stash/releases/download/[version]/stash-linux-a
 wget https://github.com/stashapp/stash/releases/download/[version]/CHECKSUMS_SHA1
 ```
 
+{:style="counter-reset:none"}
 4. Perform the checksum validation
 
 ```
@@ -125,6 +128,7 @@ sha1sum -c --ignore-missing CHECKSUMS_SHA1
 # you should see a line that says `stash-linux-arm64v8: OK`
 ```
 
+{:style="counter-reset:none"}
 5. Clean up unnecessary file
 
 ```
@@ -135,6 +139,7 @@ _Note : DO NOT run stash yet or it will generated a bunch of files/folders where
 
 ### Download ffmpeg
 
+{:style="counter-reset:none"}
 6. Donwload the ARM64 static build of ffmpeg and its checksum
 
 ```
@@ -142,6 +147,7 @@ wget https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-arm64-static.tar.x
 wget https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-arm64-static.tar.xz.md5
 ```
 
+{:style="counter-reset:none"}
 7. Perform the checksum validation
 
 ```
@@ -150,6 +156,7 @@ md5sum -c ffmpeg-release-arm64-static.tar.xz.md5
 # you should see a line that says `ffmpeg-release-arm64-static.tar.xz: OK`
 ```
 
+{:style="counter-reset:none"}
 8. Unpack & move ffmpeg to the .stash/ folder
 
 ```
@@ -157,6 +164,7 @@ tar xvf ffmpeg-release-arm64-static.tar.xz
 mv ffmpeg-4.4-arm64-static/ffmpeg ffmpeg-4.4-arm64-static/ffprobe .stash/
 ```
 
+{:style="counter-reset:none"}
 9. Clean up unnecessary files
 
 ```
@@ -165,6 +173,7 @@ rm ffmpeg-release-arm64-static.tar.xz.md5
 rm -rd ffmpeg-4.4-arm64-static/
 ```
 
+{:style="counter-reset:none"}
 10. Prepare a python environment (for scrapers)
 
 ```
@@ -185,6 +194,7 @@ sudo pip3 install -r requirements.txt
 
 ### Configure your NAS to run Stash upon startup
 
+{:style="counter-reset:none"}
 10. Create the service file by running `cat > /etc/systemd/system/stash.service`, copy/pasting the following, and hitting CTRL+D when it's done to save the file (hit again if you are not back to the prompt) :
 
 ```
@@ -205,6 +215,7 @@ WantedBy=multi-user.target
 # end
 ```
 
+{:style="counter-reset:none"}
 11. Start and activate the service
 
 ```
