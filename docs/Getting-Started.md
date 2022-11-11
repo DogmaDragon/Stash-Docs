@@ -44,6 +44,6 @@ has_toc: false
 
 ## First steps
 
-1. Setting content libraries
+1. Setting up content libraries
 2. Configuring scan options 
 3. Initiating scan

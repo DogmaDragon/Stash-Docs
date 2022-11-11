@@ -45,6 +45,7 @@ Now, follow the installation instructions based on whether you [can use Docker](
 | (where your porn lives)  | /data  | Location of your porn  |
 
 ### "Environment" Tab
+
 (These will need to be the same as the Volumes you created in the "Volume" tab.
 
 | variable  | Value  |
@@ -57,9 +58,11 @@ Now, follow the installation instructions based on whether you [can use Docker](
 |   |   |   |
 
 ### "Port" Tab
+
 You will need to set a default port in the "Port" tab, otherwise Docker will assign a different port every time Stash is launched.  Leave the container port as-is.
 
 ### "Network" Tab
+
 Make sure that "Use The Same Network As Docker Host" is checked.
 
 (thanks to backer Herelam80 for these instructions)
@@ -94,11 +97,13 @@ _Note : only members of the adminstrator group are able to use SSH, you'll need 
 With your terminal, connect to your NAS using an account that is part of the _administrator_ group.
 
 1. SSH to your NAS
+
 ```
 ssh admin@nas-hostname
 ```
 
 2. navigate to the _stash_ user home directory
+
 ```
 cd ../stash/
 ```
@@ -106,12 +111,14 @@ cd ../stash/
 ### Download Stash
 
 3. Download the lastest ARM64 version of stash and its checksum from github
+
 ```
 wget https://github.com/stashapp/stash/releases/download/[version]/stash-linux-arm64v8
 wget https://github.com/stashapp/stash/releases/download/[version]/CHECKSUMS_SHA1
 ```
 
 4. Perform the checksum validation
+
 ```
 sha1sum -c --ignore-missing CHECKSUMS_SHA1
 
@@ -119,6 +126,7 @@ sha1sum -c --ignore-missing CHECKSUMS_SHA1
 ```
 
 5. Clean up unnecessary file
+
 ```
 rm CHECKSUMS_SHA1
 ```
@@ -128,12 +136,14 @@ _Note : DO NOT run stash yet or it will generated a bunch of files/folders where
 ### Download ffmpeg
 
 6. Donwload the ARM64 static build of ffmpeg and its checksum
+
 ```
 wget https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-arm64-static.tar.xz
 wget https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-arm64-static.tar.xz.md5
 ```
 
 7. Perform the checksum validation
+
 ```
 md5sum -c ffmpeg-release-arm64-static.tar.xz.md5
 
@@ -141,12 +151,14 @@ md5sum -c ffmpeg-release-arm64-static.tar.xz.md5
 ```
 
 8. Unpack & move ffmpeg to the .stash/ folder
+
 ```
 tar xvf ffmpeg-release-arm64-static.tar.xz
 mv ffmpeg-4.4-arm64-static/ffmpeg ffmpeg-4.4-arm64-static/ffprobe .stash/
 ```
 
 9. Clean up unnecessary files
+
 ```
 rm ffmpeg-release-arm64-static.tar.xz
 rm ffmpeg-release-arm64-static.tar.xz.md5
@@ -154,6 +166,7 @@ rm -rd ffmpeg-4.4-arm64-static/
 ```
 
 10. Prepare a python environment (for scrapers)
+
 ```
 sudo -H python -m ensurepip --upgrade
 python3 -m venv stash-env
@@ -173,6 +186,7 @@ sudo pip3 install -r requirements.txt
 ### Configure your NAS to run Stash upon startup
 
 10. Create the service file by running `cat > /etc/systemd/system/stash.service`, copy/pasting the following, and hitting CTRL+D when it's done to save the file (hit again if you are not back to the prompt) :
+
 ```
 [Unit]
 Description=Run Stash at startup

@@ -39,6 +39,7 @@ In order for the `stash-linux` binary to work in a FreeBSD system, Linux compati
 * Type: `rc.conf`
 3. Click submit.
 4. In a shell in your iocage jail, edit `/etc/rc.conf` to add:
+
 ```
 enable_linux="YES"
 ```
