@@ -19,3 +19,7 @@ parent: Getting Started
 </details>
 
 ---
+
+- Run `./stash-osx` from the terminal on macOS.
+- _Note for Mac users_: If you have trouble, try running `chmod u+x stash-osx` to make the file executable.
+- Navigate to http://localhost:9999 to get started.
