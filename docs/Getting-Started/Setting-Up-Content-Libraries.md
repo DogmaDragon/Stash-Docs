@@ -22,6 +22,7 @@ parent: Getting Started
 
 1. Open your Stash.
 2. Go to `Settings` > `Library` and click `Add Directory`.
-_Note:_ To add different drives or external drives, just change the drive letter or volume in the field.
+3. To change the drive letter/volume, just type it in the field.
 ![Drive location](assets/drive_location.png)
-3. Click `Confirm`.
+4. Select the folder containing the content you want to added. It will selects the folder and all sub-folders. 
+5. Click `Confirm`.
