@@ -43,9 +43,9 @@ If you haven't set up StashDB in your Stash settings yet, now's the time to do i
 ### How to connect your account to Stash
 
 1. Once you got your account created with the invite key from [#stashdb-invites](https://discord.com/channels/559159668438728723/935614155107471442){:target="_blank"} go to stashdb.org and click on your username at the top, next to `Logged in as`.
-2.  Copy your unique API key.
+2.  Copy your unique `API key`.
 3.  Go to the `Settings` page in Stash (http://localhost:9999/settings by default), click `Metadata Providers` on the left side and find "Stash-box Endpoints" at the top.
-4.  Click `Add`, paste in your API key, enter stashdb.org for Name, enter https://stashdb.org/graphql as the endpoint, and click `"Confirm`.
+4.  Click `Add`, paste in your API key, enter stashdb.org for Name, enter https://stashdb.org/graphql as the endpoint, and click `Confirm`.
 
 ---
 
