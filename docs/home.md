@@ -5,9 +5,7 @@ nav_order: 1
 permalink: /
 ---
 {: .warning }
-> Test site!
->
-> This site is for testing purposes only. Links, images or any other information might be broken, outdated or incorrect. Don't use as source for inforamtion. 
+This site is for testing purposes only. Links, images or any other information might be broken, outdated or incorrect. Don't use as source for inforamtion. 
 
 # Stash-Docs
 {: .no_toc }
