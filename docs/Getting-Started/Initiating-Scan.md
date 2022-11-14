@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Setting Up Content Libraries
-nav_order: 7
+title: Initiating Scan
+nav_order: 9
 parent: Getting Started
 ---
-# Setting Up Content Libraries
+# Initiating Scan
 {: .no_toc }
 
 ---
@@ -24,5 +24,5 @@ parent: Getting Started
 2. Go to `Settings` > `Library` and click `Add Directory`.
 3. To change the drive letter/volume, just type it in the field.
 ![Drive location](assets/drive_location.png)
-4. Select the folder containing the content you want to add. It will select the folder and all sub-folders. 
+4. Select the folder containing the content you want to added. It will selects the folder and all sub-folders. 
 5. Click `Confirm`.

@@ -44,6 +44,6 @@ has_toc: false
 
 ## First steps
 
-1. Setting up content libraries
-2. Configuring scan options 
-3. Initiating scan
+1. [Setting Up Content Libraries]({{ site.baseurl }}/docs/Getting-Started/Setting-Up-Content-Libraries)
+2. [Configuring Scan Options]({{ site.baseurl }}/docs/Getting-Started/Configuring-Scan-Options)
+3. [Initiating Scan]({{ site.baseurl }}/docs/Getting-Started/Initiating-Scan)
