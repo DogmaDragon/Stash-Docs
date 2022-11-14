@@ -3,7 +3,6 @@ layout: default
 title: Custom CSS Snippets
 nav_order: 2
 parent: User Interface (UI)
-permalink: css
 ---
 # **Custom CSS Snippets**
 {: .no_toc }
@@ -23,7 +22,7 @@ permalink: css
 
 **Custom CSS** allows you to modify Stash's stock style sheets.
 
-The following is a list of some useful CSS snippets. You may use them by copying-and-pasting them into the Custom CSS editor found in the `Settings` > `Interface Configuration` panel or by navigating to `127.0.0.1:9999/settings?tab=interface`
+The following is a list of some useful CSS snippets. You may use them by copying-and-pasting them into the Custom CSS editor found in the `Settings` > `Interface Configuration` panel or by navigating to `localhost:9999/settings?tab=interface`
 
 Note: Future releases of Stash may break these CSS tweaks. CSS tweaks may not appear without flushing the Stash browser cache first on Chrome.
 
@@ -413,10 +412,10 @@ img.performer,
 }
 ```
 
-### Blur NSFW images and unblur on hover
+### Blur NSFW images and unblur on mouse over
 
 ```css
-/* [Global changes] Blur NSFW images and unblur on hover */
+/* [Global changes] Blur NSFW images and unblur on mouse over */
 /* === MORE BLUR === */
 /* scene */
 .scene-card-preview,
