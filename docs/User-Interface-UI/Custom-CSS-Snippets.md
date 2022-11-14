@@ -3,6 +3,7 @@ layout: default
 title: Custom CSS Snippets
 nav_order: 2
 parent: User Interface (UI)
+permalink: css
 ---
 # **Custom CSS Snippets**
 {: .no_toc }
