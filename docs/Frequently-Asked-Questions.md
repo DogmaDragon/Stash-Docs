@@ -57,13 +57,18 @@ The basepath defaults to `/`. When running stash via a reverse proxy in a subpat
 
 ### What's the best way to add metadata to Stash?
 
-* Stash includes a single scraper, but you can add more via the [CommunityScrapers repo](https://github.com/stashapp/CommunityScrapers). See the README for installation and usage instructions.
-* Pierre Delecto wrote [a Python script](https://github.com/ThePornDatabase/stash_theporndb_scraper) for scraping from ThePornDB. This is arguably the fastest way to mass create studios / performers and populate scene data.
 * StashDB is a service that allows for crowdsourcing of porn metadata. Check the pinned messages in the #stashbox-invites channel in Discord to start using it.
+* Stash includes a single scraper, but you can add more via the [CommunityScrapers repo](https://github.com/stashapp/CommunityScrapers). See the README for installation and usage instructions.
 
-### How do I rename or relocate a library folder?
+### How do I rename or relocate a library folder or scenes?
 
-**If you need to move or rename a folder**, you can remove the existing directory from your library and re-add the new location. Stash will recognize the files on the next scan and re-link to the new location. **Do not run a Clean in between these steps, or you will lose the information from your relocated folders** (your files will not be affected).
+**If you need to move or rename a folder**, you can remove the existing directory from your library and re-add the new location. 
+**If you need to move or rename scenes**, you can simply move the scenes and rescan, being sure the new location is in your library.
+
+Stash will recognize the files on the next scan and re-link to the new location. 
+**Do not run a Clean in between these steps, or you will lose the information from your relocated folders** (your files will not be affected).
+
+Stash uses 2 different methods to track your scenes: oshash and filename/path.  Changing ONE (either moving OR editing/altering the file) will be recovered on your next scan.  Stash will update the 'wrong' entry, and restore it knowing 2 things about each file.  If both are changed at once (like a reencode and a rename), Stash has no way to associate the file with the old version and will add the file as new entry, **losing** the old metadata associated with it. (The data isn't deleted until a clean though)
 
 > **⚠️ Note:** Don't forget to click `Save` after updating these directories!
 
