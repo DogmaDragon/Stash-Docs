@@ -3,6 +3,7 @@ layout: default
 title: Installation
 nav_order: 1
 has_children: true
+has_toc: false
 parent: Getting Started
 ---
 # Installation
@@ -21,7 +22,6 @@ parent: Getting Started
 4. [Installing on Synology NAS]({{ site.baseurl }}/docs/Getting-Started/Installation/Installing-on-Synology-NAS)
 5. [Installing on FreeNAS/TrueNAS]({{ site.baseurl }}/docs/Getting-Started/Installation/Installing-on-FreeNAS-TrueNAS)
 6. [Unraid Support]({{ site.baseurl }}/docs/Getting-Started/Installation/Unraid-Support)
-{:toc}
 </details>
 
 ---
