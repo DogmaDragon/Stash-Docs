@@ -24,5 +24,3 @@ parent: Getting Started
 6. [Unraid Support]({{ site.baseurl }}/docs/Getting-Started/Installation/Unraid-Support)
 </details>
 
----
-
