@@ -45,7 +45,9 @@ parent: Getting Started
 | Generate perceptual hashes | Generates perceptual hashes for scene deduplication and identification. |
 | Generate thumbnails for images | Generates thumbnails for image files. |
 
-3. Select options you want based on your preferences, but every option increases time the scan will take. 
+{:style="counter-reset:none"}
+3. Select options you want based on your preferences, but every option increases time the scan will take.
+{:style="counter-reset:none"} 
 4. You can stop and re-scan it will ignore the files that are already scanned and just scan new or missing files. 
 
 ---
