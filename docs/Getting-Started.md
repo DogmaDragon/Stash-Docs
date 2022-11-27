@@ -19,6 +19,12 @@ has_toc: false
 {:toc}
 </details>
 
+<style>
+.no-border > img {
+    border: none;
+}
+</style>
+
 ---
 
 ## Downloading Stash
