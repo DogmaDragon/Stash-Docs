@@ -235,7 +235,7 @@ updated_at
 
 # In JSON format
 
-For those preferring the json-format, defined [here](https://json-schema.org/), the following format may be more interesting:
+For those preferring the json-format, defined [here](https://json-schema.org/){:target="_blank"}, the following format may be more interesting:
 
 ## performer.json
 

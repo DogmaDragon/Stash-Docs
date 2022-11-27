@@ -22,7 +22,7 @@ grand_parent: In-app Manual
 
 ---
 
-[This tool](/sceneFilenameParser) parses the scene filenames in your library and allows setting the metadata from those filenames.
+[This tool](http://localhost:9999/sceneFilenameParser) parses the scene filenames in your library and allows setting the metadata from those filenames.
 
 ## Parser Options
 

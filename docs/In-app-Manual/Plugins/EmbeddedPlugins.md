@@ -26,17 +26,17 @@ Embedded plugins are executed within the stash process using a scripting system.
 
 ## Supported script languages
 
-Stash currently supports Javascript embedded plugins using [otto](https://github.com/robertkrimen/otto).
+Stash currently supports Javascript embedded plugins using [otto](https://github.com/robertkrimen/otto){:target="_blank"}.
 
 # Javascript plugins
 
 ## Plugin input
 
-The input is provided to Javascript plugins using the `input` global variable, and is an object based on the structure provided in the `Plugin input` section of the [Plugins](/help/Plugins.md) page. Note that the `server_connection` field should not be necessary in most embedded plugins.
+The input is provided to Javascript plugins using the `input` global variable, and is an object based on the structure provided in the `Plugin input` section of the [Plugins]({{ site.baseurl }}/docs/In-app-Manual/Plugins) page. Note that the `server_connection` field should not be necessary in most embedded plugins.
 
 ## Plugin output
 
-The output of a Javascript plugin is derived from the evaluated value of the script. The output should conform to the structure provided in the `Plugin output` section of the [Plugins](/help/Plugins.md) page.
+The output of a Javascript plugin is derived from the evaluated value of the script. The output should conform to the structure provided in the `Plugin output` section of the [Plugins]({{ site.baseurl }}/docs/In-app-Manual/Plugins) page.
 
 There are a number of ways to return the plugin output:
 
