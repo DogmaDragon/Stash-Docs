@@ -2,7 +2,8 @@
 layout: default
 title: Installing on Linux
 nav_order: 3
-parent: Getting Started
+parent: Installation
+grand_parent: Getting Started
 ---
 # Installing on Linux
 {: .no_toc }

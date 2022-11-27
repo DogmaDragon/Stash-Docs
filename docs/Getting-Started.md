@@ -33,17 +33,17 @@ has_toc: false
 
 ## Installing Stash
 
-1. [Installing on Windows]({{ site.baseurl }}/docs/Getting-Started/Installing-on-Windows)
-2. [Installing on macOS]({{ site.baseurl }}/docs/Getting-Started/Installing-on-macOS)
-3. [Installing on Linux]({{ site.baseurl }}/docs/Getting-Started/Installing-on-Linux)
-4. [Installing on Synology NAS]({{ site.baseurl }}/docs/Getting-Started/Installing-on-Synology-NAS)
-5. [Installing on FreeNAS/TrueNAS]({{ site.baseurl }}/docs/Getting-Started/Installing-on-FreeNAS-TrueNAS)
-6. [Unraid Support]({{ site.baseurl }}/docs/Getting-Started/Unraid-Support)
+1. [Installing on Windows]({{ site.baseurl }}/docs/Getting-Started/Installation/Installing-on-Windows)
+2. [Installing on macOS]({{ site.baseurl }}/docs/Getting-Started/Installation/Installing-on-macOS)
+3. [Installing on Linux]({{ site.baseurl }}/docs/Getting-Started/Installation/Installing-on-Linux)
+4. [Installing on Synology NAS]({{ site.baseurl }}/docs/Getting-Started/Installation/Installing-on-Synology-NAS)
+5. [Installing on FreeNAS/TrueNAS]({{ site.baseurl }}/docs/Getting-Started/Installation/Installing-on-FreeNAS-TrueNAS)
+6. [Unraid Support]({{ site.baseurl }}/docs/Getting-Started/Installation/Unraid-Support)
 
 ---
 
 ## First steps
 
-1. [Setting Up Content Libraries]({{ site.baseurl }}/docs/Getting-Started/Setting-Up-Content-Libraries)
-2. [Configuring Scan Options]({{ site.baseurl }}/docs/Getting-Started/Configuring-Scan-Options)
-3. [Initiating Scan]({{ site.baseurl }}/docs/Getting-Started/Initiating-Scan)
+1. [Setting Up Content Libraries]({{ site.baseurl }}/docs/Getting-Started/First-Steps/#Setting-Up-Content-Libraries)
+2. [Configuring Scan Options]({{ site.baseurl }}/docs/Getting-Started/First-Steps/#Configuring-Scan-Options)
+3. [Initiating Scan]({{ site.baseurl }}/docs/Getting-Started/First-Steps/#Initiating-Scan)

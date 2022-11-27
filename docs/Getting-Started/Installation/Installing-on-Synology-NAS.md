@@ -2,7 +2,8 @@
 layout: default
 title: Installing on Synology NAS
 nav_order: 4
-parent: Getting Started
+parent: Installation
+grand_parent: Getting Started
 ---
 # **Installing on Synology NAS**
 {: .no_toc }

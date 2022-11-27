@@ -2,7 +2,8 @@
 layout: default
 title: Installing on Windows
 nav_order: 1
-parent: Getting Started
+parent: Installation
+grand_parent: Getting Started
 ---
 # Installing on Windows
 {: .no_toc }

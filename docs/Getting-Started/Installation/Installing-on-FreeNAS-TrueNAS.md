@@ -2,7 +2,8 @@
 layout: default
 title: Installing on FreeNAS/TrueNAS
 nav_order: 5
-parent: Getting Started
+parent: Installation
+grand_parent: Getting Started
 ---
 # Installing on FreeNAS/TrueNAS
 {: .no_toc }
