@@ -7,7 +7,7 @@ has_toc: false
 ---
 # **In-app Manual**
 {: .no_toc }
-Internal Stash documentation, mirrored from [Stash repository](https://github.com/stashapp/stash/tree/master/ui/v2.5/src/docs/en/Manual).
+Internal Stash documentation, mirrored from [Stash repository](https://github.com/stashapp/stash/tree/master/ui/v2.5/src/docs/en/Manual){:target="_blank"}.
 
 ---
 

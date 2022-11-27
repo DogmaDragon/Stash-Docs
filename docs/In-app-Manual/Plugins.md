@@ -4,6 +4,7 @@ title: Plugins
 nav_order: 8
 parent: In-app Manual
 has_children: true
+has_toc: false
 ---
 
 # **Plugins**

@@ -4,6 +4,7 @@ title: Tasks
 nav_order: 4
 parent: In-app Manual
 has_children: true
+has_toc: false
 ---
 
 # **Tasks**

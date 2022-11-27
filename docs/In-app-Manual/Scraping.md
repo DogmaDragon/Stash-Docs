@@ -4,6 +4,7 @@ title: Metadata Scraping
 nav_order: 7
 parent: In-app Manual
 has_children: true
+has_toc: false
 ---
 
 # **Metadata Scraping**
