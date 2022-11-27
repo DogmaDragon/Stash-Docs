@@ -45,10 +45,10 @@ The scan task accepts the following options:
 | Set name, date, details from embedded file metadata. | Parse the video file metadata (where supported) and set the scene attributes accordingly. It has previously been noted that this information is frequently incorrect, so only use this option where you are certain that the metadata is correct in the files. |
 
 # Auto Tagging
-See the [Auto Tagging](/help/AutoTagging.md) page.
+See the [Auto Tagging]({{ site.baseurl }}/docs/In-app-Manual/Tasks/AutoTagging) page.
 
 # Scene Filename Parser
-See the [Scene Filename Parser](/help/SceneFilenameParser.md) page.
+See the [Scene Filename Parser]({{ site.baseurl }}/docs/In-app-Manual/Tasks/SceneFilenameParser) page.
 
 # Generated Content
 
@@ -96,6 +96,6 @@ The import and export tasks read and write JSON files to the configured metadata
 
 > **⚠️ Note:** The full import task wipes the current database completely before importing.
 
-See the [JSON Specification](/help/JSONSpec.md) page for details on the exported JSON format.
+See the [JSON Specification]({{ site.baseurl }}/docs/In-app-Manual/Tasks/JSONSpec) page for details on the exported JSON format.
 
 ---

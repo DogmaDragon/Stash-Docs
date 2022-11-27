@@ -42,9 +42,9 @@ Plugins provide tasks which can be run from the Tasks page.
 
 # Creating plugins
 
-See [External Plugins](/help/ExternalPlugins.md) for details for making external plugins.
+See [External Plugins]({{ site.baseurl }}/docs/In-app-Manual/Plugins/ExternalPlugins) for details for making external plugins.
 
-See [Embedded Plugins](/help/EmbeddedPlugins.md) for details for making embedded plugins.
+See [Embedded Plugins]({{ site.baseurl }}/docs/In-app-Manual/Plugins/EmbeddedPlugins) for details for making embedded plugins.
 
 ## Plugin input
 

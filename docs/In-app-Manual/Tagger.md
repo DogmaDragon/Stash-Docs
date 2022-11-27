@@ -21,7 +21,7 @@ parent: In-app Manual
 
 ---
 
-Stash can be integrated with stash-box which acts as a centralized metadata database. This is in the early stages of development but can be used for fingerprint/keyword lookups and automated tagging of performers and scenes. The batch tagging interface can be accessed from the [scene view](/scenes?disp=3). For more information join our [Discord](https://discord.gg/2TsNFKt).
+Stash can be integrated with stash-box which acts as a centralized metadata database. This is in the early stages of development but can be used for fingerprint/keyword lookups and automated tagging of performers and scenes. The batch tagging interface can be accessed from the [scene view](http://localhost:9999/scenes?disp=3). For more information join our [Discord](https://discord.gg/2TsNFKt){:target="_blank"}.
 
 #### Searching 
 

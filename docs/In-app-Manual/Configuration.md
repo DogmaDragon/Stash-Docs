@@ -29,7 +29,7 @@ This section allows you to add and remove directories from your library list. Fi
 
 ## Excluded Patterns
 
-Given a valid [regex](https://github.com/google/re2/wiki/Syntax), files that match even partially are excluded during the Scan process and are not entered in the database. Also during the Clean task if these files exist in the DB they are removed from it and their generated files get deleted.
+Given a valid [regex](https://github.com/google/re2/wiki/Syntax){:target="_blank"}, files that match even partially are excluded during the Scan process and are not entered in the database. Also during the Clean task if these files exist in the DB they are removed from it and their generated files get deleted.
 Prior to matching both the filenames and patterns are converted to lower case so the match is case insensitive.
 
 Regex patterns can be added in the config file or from the UI.
@@ -55,7 +55,7 @@ exclude:
 
 **Note:** if a directory is excluded for images and videos, then the directory will be excluded from scans completely.
 
-_a useful [link](https://regex101.com/) to experiment with regexps_
+_a useful [link](https://regex101.com/){:target="_blank"} to experiment with regexps_
 
 ## Hashing algorithms
 

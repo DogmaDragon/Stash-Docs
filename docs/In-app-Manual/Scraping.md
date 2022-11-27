@@ -63,7 +63,7 @@ Scrapers are added by placing yaml configuration files (format: `scrapername.yml
 
 After the yaml files are added, removed or edited while stash is running, they can be reloaded going to `Settings > Metadata Providers > Scrapers` and clicking `Reload Scrapers`.
 
-The stash community maintains a number of custom scraper configuration files that can be found [here](https://github.com/stashapp/CommunityScrapers).
+The stash community maintains a number of custom scraper configuration files that can be found [here](https://github.com/stashapp/CommunityScrapers){:target="_blank"}.
   
 ## Using Scrapers
 
@@ -92,4 +92,4 @@ When used in combination with stash-box, the user can optionally submit scene fi
 
 ## Identify Task
 
-This task iterates through your Scenes and attempts to identify the scene using a selection of scraping sources. This task can be found under `Settings -> Tasks -> "Identify..." (Button)`. For more information see the [Tasks > Identify](/help/Identify.md) page.
+This task iterates through your Scenes and attempts to identify the scene using a selection of scraping sources. This task can be found under `Settings -> Tasks -> "Identify..." (Button)`. For more information see the [Tasks > Identify]({{ site.baseurl }}/docs/In-app-Manual/Tasks/Identify) page.

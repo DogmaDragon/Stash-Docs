@@ -43,13 +43,13 @@ The maximum loop duration option allows looping of shorter videos. Set this valu
 
 ## Custom CSS
 
-The stash UI can be customised using custom CSS. See [here](https://github.com/stashapp/stash/wiki/Custom-CSS-snippets) for a community-curated set of CSS snippets to customise your UI. 
+The stash UI can be customised using custom CSS. See [here](https://github.com/stashapp/stash/wiki/Custom-CSS-snippets){:target="_blank"} for a community-curated set of CSS snippets to customise your UI. 
 
-[Stash Plex Theme](https://github.com/stashapp/stash/wiki/Theme-Plex) is a community created theme inspired by the popular Plex interface.
+[Stash Plex Theme](https://github.com/stashapp/stash/wiki/Theme-Plex){:target="_blank"} is a community created theme inspired by the popular Plex interface.
 
 ## Custom Locales
 
-The localisation strings can be customised. The master list of default (en-GB) locale strings can be found [here](https://github.com/stashapp/stash/blob/develop/ui/v2.5/src/locales/en-GB.json). The custom locale format is the same as this json file.
+The localisation strings can be customised. The master list of default (en-GB) locale strings can be found [here](https://github.com/stashapp/stash/blob/develop/ui/v2.5/src/locales/en-GB.json){:target="_blank"}. The custom locale format is the same as this json file.
 
 For example, to override the `actions.add_directory` label (which is `Add Directory` by default), you would have the following in the custom locale:
 
