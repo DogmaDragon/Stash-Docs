@@ -3,6 +3,7 @@ layout: default
 title: Installation
 nav_order: 1
 parent: Getting Started
+has_children: true
 ---
 # Installation
 {: .no_toc }
