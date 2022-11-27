@@ -21,6 +21,16 @@ grand_parent: Getting Started
 
 ---
 
-1. Run `./stash-osx` from the terminal on macOS.
-2. _Note for Mac users_: If you have trouble, try running `chmod u+x stash-osx` to make the file executable.
-3. Navigate to http://localhost:9999 to get started.
+## Apple Silicon
+
+1. Run `./stash-macos-applesilicon` from the terminal on macOS.
+  - If you have trouble, try running `chmod u+x stash-macos-applesilicon` to make the file executable.
+2. Navigate to http://localhost:9999 to get started.
+
+---
+
+## Intel
+
+1. Run `./stash-macos-intel` from the terminal on macOS.
+  - If you have trouble, try running `chmod u+x stash-macos-intel` to make the file executable.
+2. Navigate to http://localhost:9999 to get started.

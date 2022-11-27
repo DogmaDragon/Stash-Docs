@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Backup & Restore Database
-nav_order: 1
+nav_order: 2
 parent: Beginner Guides
 ---
 # **Backup & Restore Database**
@@ -25,7 +25,7 @@ parent: Beginner Guides
 Always use the UI to create a backup of the DB. As with all live databases **DO NOT** copy manually the database file as a means of backup.
 The `Backup` or `Download Backup` tasks are the proper way to create a backup file.
 
-Stash uses an sqlite database with `WAL` mode enabled. This practically means that along with the main db file `stash.go-sqlite` there can be a `-shm` and a `-wal` file present ( [more info](https://sqlite.org/wal.html) ) . Even stopping stash might leave some of these index files present so again **DO NOT** manually copy the database file.
+Stash uses an sqlite database with `WAL` mode enabled. This practically means that along with the main db file `stash.go-sqlite` there can be a `-shm` and a `-wal` file present ([more info](https://sqlite.org/wal.html){:target="_blank"}). Even stopping Stash might leave some of these index files present so again **DO NOT** manually copy the database file.
 
 ---
 
@@ -51,7 +51,7 @@ You should now have stash running with a working and restored database.
 ## Advanced Troubleshooting
 
 If you get a database malformed message during upgrade or backup that probably means that the database is already corrupt. One way to get past that is to do a full export and check the error log. If there are not a lot of errors you can then try to do a full import and get a working db with minimal losses. As the full import is destructive proceed with caution. 
-For cases like this it is better to visit the [discord channel](https://discord.gg/2TsNFKt).
+For cases like this it is better to visit the [discord channel](https://discord.gg/frQ7qBvB3S).
 
 
 

@@ -24,8 +24,9 @@ parent: Getting Started
 ## Setting Up Content Libraries
 
 1. Open your Stash.
-2. Go to`Settings` >`Library` and click`Add Directory`.
-3. To change the drive letter/volume, just type it in the field.![Drive location](assets/drive_location.png)
+2. Go to `Settings` > `Library` and click `Add Directory`.
+3. To change the drive letter/volume, just type it in the field.
+![Drive location](assets/drive_location.png)
 4. Select the folder containing the content you want to add. It will select the folder and all sub-folders.
 5. Click`Confirm`.
 
@@ -34,7 +35,8 @@ parent: Getting Started
 ## Configuring Scan Options
 
 1. Open your Stash.
-2. Go to`Settings` >`Tasks`.![Scan options](assets/scan_options.png)
+2. Go to `Settings` > `Tasks`.
+![Scan options](assets/scan_options.png)
 
 | Option                           | Description                                                                                                                             |
 | -------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
@@ -53,5 +55,5 @@ parent: Getting Started
 ## Initiating Scan
 
 1. Open your Stash.
-2. Go to`Settings` >`Tasks`.
-3. Click`Scan` to start scanning for the content from your setup libraries or`Selective Scan...` if you want to scan a specific location.
+2. Go to `Settings` > `Tasks`.
+3. Click `Scan` to start scanning for the content from your setup libraries or `Selective Scan...` if you want to scan a specific location.

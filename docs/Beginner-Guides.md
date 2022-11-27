@@ -15,8 +15,8 @@ has_toc: false
     Table of Contents
   </summary>
   {: .text-delta }
-1. TOC
-{:toc}
+1. [Guide to Scraping]({{ site.baseurl }}/docs/Beginner-Guides/Guide-To-Scraping/
+2. [Backup & Restore Database]({{ site.baseurl }}/docs/Beginner-Guides/Backup-&-Restore-Database/
+3. [Exclude File Configuration]({{ site.baseurl }}/docs/Beginner-Guides/Exclude-File-Configuration/
+4. [Troubleshooting Video Playback]({{ site.baseurl }}/docs/Beginner-Guides/Troubleshooting-Video-Playback/
 </details>
-
----

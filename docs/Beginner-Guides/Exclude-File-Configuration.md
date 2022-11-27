@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Exclude File Configuration
-nav_order: 2
+nav_order: 3
 parent: Beginner Guides
 ---
 # **Exclude File Configuration**
@@ -20,7 +20,7 @@ parent: Beginner Guides
 
 ---
 
-Given a valid [regex](https://github.com/google/re2/wiki/Syntax), files that match even partially are excluded during the Scan process and are not entered in the database.Also during the Clean task if these files exist in the DB they are removed from it and their generated files get deleted.
+Given a valid [regex](https://github.com/google/re2/wiki/Syntax){:target="_blank"}, files that match even partially are excluded during the Scan process and are not entered in the database.Also during the Clean task if these files exist in the DB they are removed from it and their generated files get deleted.
 Prior to matching both the filenames and patterns are converted to lower case so the match is case insensitive.
 
 Regex patterns can be added in the config file or from the UI.
@@ -46,6 +46,7 @@ exclude:
 
 and thats how it looks if you use UI (notice the difference for the `\` character)
 
-![regexUI](https://i.imgur.com/3Oqvuja.png)
+![regexUI](assets/regexui.png)
 
-_a useful [link](https://regex101.com/?flavor=golang) to experiment with regexps (We use "Golang" as the regex flavour)_
+{: .note }
+Useful [link](https://regex101.com/?flavor=golang){:target="_blank"} to experiment with regexps (we use "Golang" as the regex flavour).

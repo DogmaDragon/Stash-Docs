@@ -21,6 +21,6 @@ grand_parent: Getting Started
 
 ---
 
-1. Run `./stash-linux` from the terminal on Linux.
-2. _Note for Linux users_: If you have trouble, try running `chmod u+x stash-linux` to make the file executable.
-3. Navigate to http://localhost:9999 to get started.
+1. Run `./stash-linux` or `./stash-linux-arm32v6` or `./stash-linux-arm32v7` or `./stash-linux-arm64v8` from the terminal on Linux depending on your architecture.
+  - If you have trouble, try running `chmod u+x stash-linux` or `chmod u+x stash-linux-arm32v6` or `chmod u+x stash-linux-arm32v7` or `chmod u+x stash-linux-arm64v8` to make the file executable.
+2. Navigate to http://localhost:9999 to get started.

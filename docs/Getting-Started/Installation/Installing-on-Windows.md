@@ -21,6 +21,6 @@ grand_parent: Getting Started
 
 ---
 
-1. Run the executable (typically `stash-win.exe`). The app will start up in a terminal window, read in your configuration and then give you a URL to connect with in your browser.
-2. _Note for Windows users_: Running the app might present a security prompt since the binary isn't signed yet. Just click more info and then the `run anyway` button.
-3. Navigate to http://localhost:9999 to get started.
+1. Run the executable (typically`stash-win.exe`). The app will start up in a terminal window, read in your configuration and then give you a URL to connect with in your browser.
+  - Running the app might present a security prompt since the binary isn't signed yet. Just click more info and then the`run anyway` button.
+2. Navigate to http://localhost:9999 to get started.
