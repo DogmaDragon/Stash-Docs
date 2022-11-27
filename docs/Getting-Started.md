@@ -44,6 +44,6 @@ has_toc: false
 
 ## First steps
 
-1. [Setting Up Content Libraries]({{ site.baseurl }}/docs/Getting-Started/First-Steps/#Setting-Up-Content-Libraries)
-2. [Configuring Scan Options]({{ site.baseurl }}/docs/Getting-Started/First-Steps/#Configuring-Scan-Options)
-3. [Initiating Scan]({{ site.baseurl }}/docs/Getting-Started/First-Steps/#Initiating-Scan)
+1. [Setting Up Content Libraries]({{ site.baseurl }}/docs/Getting-Started/First-Steps/#setting-up-content-libraries)
+2. [Configuring Scan Options]({{ site.baseurl }}/docs/Getting-Started/First-Steps/#configuring-scan-options)
+3. [Initiating Scan]({{ site.baseurl }}/docs/Getting-Started/First-Steps/#initiating-scan)
