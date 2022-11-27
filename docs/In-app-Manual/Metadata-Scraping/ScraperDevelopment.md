@@ -22,7 +22,7 @@ grand_parent: In-app Manual
 
 ---
 
-Scrapers can be contributed to the community by creating a PR in [this repository](https://github.com/stashapp/CommunityScrapers/pulls).
+Scrapers can be contributed to the community by creating a PR in [this repository](https://github.com/stashapp/CommunityScrapers/pulls){:target="_blank"}.
 
 # Scraper configuration file format
 
@@ -194,7 +194,7 @@ XPath scraping configurations specify the mapping between object fields and an x
 
 This action works in the same way as `scrapeXPath`, but uses a mapped json configuration to parse. It uses the top-level `jsonScrapers` configuration. This action is **not valid** for `performerByFragment`.
 
-JSON scraping configurations specify the mapping between object fields and a GJSON selector. The JSON scraper scrapes the applicable URL and uses [GJSON](https://github.com/tidwall/gjson/blob/master/SYNTAX.md) to parse the returned JSON object and populate the object fields.
+JSON scraping configurations specify the mapping between object fields and a GJSON selector. The JSON scraper scrapes the applicable URL and uses [GJSON](https://github.com/tidwall/gjson/blob/master/SYNTAX.md){:target="_blank"} to parse the returned JSON object and populate the object fields.
 
 
 ### scrapeXPath and scrapeJson use with `performerByName`
@@ -295,7 +295,7 @@ Collectively, these configurations are known as mapped scraping configurations.
 
 A mapped scraping configuration may contain a `common` field, and must contain `performer`, `scene`, `movie` or `gallery` depending on the scraping type it is configured for. 
 
-Within the `performer`/`scene`/`movie`/`gallery` field are key/value pairs corresponding to the [golang fields](/help/ScraperDevelopment.md#object-fields) on the performer/scene object. These fields are case-sensitive. 
+Within the `performer`/`scene`/`movie`/`gallery` field are key/value pairs corresponding to the [golang fields](#object-fields) on the performer/scene object. These fields are case-sensitive. 
 
 The values of these may be either a simple selector value, which tells the system where to get the value of the field from, or a more advanced configuration (see below). For example, for an xpath configuration:
 
@@ -388,7 +388,7 @@ performer:
 Gets the contents of the selected div element, and sets the returned value to `Female` if the scraped value is `F`; `Male` if the scraped value is `M`.
 Height and weight are extracted from the selected spans and converted to `cm` and `kg`.
 
-* `parseDate`: if present, the value is the date format using go's reference date (2006-01-02). For example, if an example date was `14-Mar-2003`, then the date format would be `02-Jan-2006`. See the [time.Parse documentation](https://golang.org/pkg/time/#Parse) for details. When present, the scraper will convert the input string into a date, then convert it to the string format used by stash (`YYYY-MM-DD`). Strings "Today", "Yesterday" are matched (case insensitive) and converted by the scraper so you don't need to edit/replace them. 
+* `parseDate`: if present, the value is the date format using go's reference date (2006-01-02). For example, if an example date was `14-Mar-2003`, then the date format would be `02-Jan-2006`. See the [time.Parse documentation](https://golang.org/pkg/time/#Parse){:target="_blank"} for details. When present, the scraper will convert the input string into a date, then convert it to the string format used by stash (`YYYY-MM-DD`). Strings "Today", "Yesterday" are matched (case insensitive) and converted by the scraper so you don't need to edit/replace them. 
 Unix timestamps (example: 1660169451) can also be parsed by selecting `unix` as the date format.
 Example:
 ```yaml
@@ -423,11 +423,11 @@ CareerLength:
 ```
 Replaces `2001 to 2003` with `2001-2003`.
 
-* `subScraper`: if present, the sub-scraper will be executed after all other post-processes are complete and before parseDate. It then takes the value and performs an http request, using the value as the URL. Within the `subScraper` config is a nested scraping configuration. This allows you to traverse to other webpages to get the attribute value you are after. For more info and examples have a look at [#370](https://github.com/stashapp/stash/pull/370), [#606](https://github.com/stashapp/stash/pull/606)
+* `subScraper`: if present, the sub-scraper will be executed after all other post-processes are complete and before parseDate. It then takes the value and performs an http request, using the value as the URL. Within the `subScraper` config is a nested scraping configuration. This allows you to traverse to other webpages to get the attribute value you are after. For more info and examples have a look at [#370](https://github.com/stashapp/stash/pull/370){:target="_blank"}, [#606](https://github.com/stashapp/stash/pull/606){:target="_blank"}
 
 Additionally, there are a number of fixed post-processing fields that are specified at the attribute level (not in `postProcess`) that are performed after the `postProcess` operations:
 * `concat`: if an xpath matches multiple elements, and `concat` is present, then all of the elements will be concatenated together
-* `split`: the inverse of `concat`. Splits a string to more elements using the separator given. For more info and examples have a look at PR [#579](https://github.com/stashapp/stash/pull/579)
+* `split`: the inverse of `concat`. Splits a string to more elements using the separator given. For more info and examples have a look at PR [#579](https://github.com/stashapp/stash/pull/579){:target="_blank"}
 
 Example:
 ```yaml
@@ -445,12 +445,12 @@ Post-processing on attribute post-process is done in the following order: `conca
 
 ### XPath resources:
 
-- Test XPaths in Firefox: https://addons.mozilla.org/en-US/firefox/addon/try-xpath/
-- XPath cheatsheet: https://devhints.io/xpath
+- Test XPaths in Firefox: [](https://addons.mozilla.org/en-US/firefox/addon/try-xpath/){:target="_blank"}
+- XPath cheatsheet: [](https://devhints.io/xpath){:target="_blank"}
 
 ### GJSON resources:
 
-- GJSON Path Syntax: https://github.com/tidwall/gjson/blob/master/SYNTAX.md
+- GJSON Path Syntax: [](https://github.com/tidwall/gjson/blob/master/SYNTAX.md){:target="_blank"}
 
 ### Debugging support
 To print the received html/json from a scraper request to the log file, add the following to your scraper yml file:
@@ -680,7 +680,7 @@ xPathScrapers:
         URL: $studio/@href    
 ```
 
-See also [#333](https://github.com/stashapp/stash/pull/333) for more examples.
+See also [#333](https://github.com/stashapp/stash/pull/333){:target="_blank"} for more examples.
 
 ### JSON scraper example
 
