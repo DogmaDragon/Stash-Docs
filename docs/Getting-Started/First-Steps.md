@@ -4,8 +4,7 @@ title: First Steps
 nav_order: 2
 parent: Getting Started
 ---
-# Setting Up Content Libraries
-
+# **First Steps**
 {: .no_toc }
 
 ---

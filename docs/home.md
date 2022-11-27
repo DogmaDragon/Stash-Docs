@@ -7,7 +7,7 @@ permalink: /
 {: .warning }
 This site is for testing purposes only. Links, images or any other information might be broken, outdated or incorrect. Don't use as source for information. 
 
-# Stash-Docs
+# **Stash-Docs**
 {: .no_toc }
 **What is Stash?**
 

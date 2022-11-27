@@ -5,7 +5,7 @@ nav_order: 3
 parent: Installation
 grand_parent: Getting Started
 ---
-# Installing on Linux
+# **Installing on Linux**
 {: .no_toc }
 
 ---

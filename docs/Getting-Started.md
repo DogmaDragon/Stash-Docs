@@ -5,8 +5,7 @@ nav_order: 2
 has_children: true
 has_toc: false
 ---
-# Getting Started
-
+# **Getting Started**
 {: .no_toc }
 
 ---

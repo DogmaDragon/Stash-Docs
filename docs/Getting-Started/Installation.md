@@ -6,7 +6,7 @@ has_children: true
 has_toc: false
 parent: Getting Started
 ---
-# Installation
+# **Installation**
 {: .no_toc }
 
 ---

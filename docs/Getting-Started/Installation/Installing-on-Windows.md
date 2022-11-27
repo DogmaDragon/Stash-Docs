@@ -5,7 +5,7 @@ nav_order: 1
 parent: Installation
 grand_parent: Getting Started
 ---
-# Installing on Windows
+# **Installing on Windows**
 {: .no_toc }
 
 ---

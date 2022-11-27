@@ -5,7 +5,7 @@ nav_order: 5
 parent: Installation
 grand_parent: Getting Started
 ---
-# Installing on FreeNAS/TrueNAS
+# **Installing on FreeNAS/TrueNAS**
 {: .no_toc }
 
 ---

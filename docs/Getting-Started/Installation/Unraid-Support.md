@@ -5,7 +5,7 @@ nav_order: 6
 parent: Installation
 grand_parent: Getting Started
 ---
-# Unraid Support
+# **Unraid Support**
 {: .no_toc }
 
 ---

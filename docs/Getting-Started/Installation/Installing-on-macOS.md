@@ -5,7 +5,7 @@ nav_order: 2
 parent: Installation
 grand_parent: Getting Started
 ---
-# Installing on macOS
+# **Installing on macOS**
 {: .no_toc }
 
 ---
