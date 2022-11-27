@@ -23,6 +23,7 @@ parent: Getting Started
 1. Open your Stash.
 2. Go to `Settings` > `Tasks`.
 ![Scan options](assets/scan_options.png)
+
 | Option | Description |
 |--------|-------------|
 | Generate previews | Generates video previews which play when hovering over a scene. |
