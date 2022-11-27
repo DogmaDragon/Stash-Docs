@@ -24,23 +24,28 @@ grand_parent: In-app Manual
 
 Embedded plugins are executed within the stash process using a scripting system.
 
+---
+
 ## Supported script languages
 
 Stash currently supports Javascript embedded plugins using [otto](https://github.com/robertkrimen/otto){:target="_blank"}.
 
-# Javascript plugins
+---
 
-## Plugin input
+## Javascript plugins
+
+### Plugin input
 
 The input is provided to Javascript plugins using the `input` global variable, and is an object based on the structure provided in the `Plugin input` section of the [Plugins]({{ site.baseurl }}/docs/In-app-Manual/Plugins) page. Note that the `server_connection` field should not be necessary in most embedded plugins.
 
-## Plugin output
+### Plugin output
 
 The output of a Javascript plugin is derived from the evaluated value of the script. The output should conform to the structure provided in the `Plugin output` section of the [Plugins]({{ site.baseurl }}/docs/In-app-Manual/Plugins) page.
 
 There are a number of ways to return the plugin output:
 
-### Example #1
+#### Example #1
+
 ```
 (function() {
     return {
@@ -49,7 +54,8 @@ There are a number of ways to return the plugin output:
 })();
 ```
 
-### Example #2
+#### Example #2
+
 ```
 function main() {
     return {
@@ -60,7 +66,8 @@ function main() {
 main();
 ```
 
-### Example #3
+#### Example #3
+
 ```
 var output = {
     Output: "ok"
@@ -69,11 +76,13 @@ var output = {
 output;
 ```
 
-## Logging
+### Logging
 
 See the `Javascript API` section below on how to log with Javascript plugins.
 
-# Plugin configuration file format
+---
+
+## Plugin configuration file format
 
 The basic structure of an embedded plugin configuration file is as follows:
 
@@ -91,18 +100,20 @@ tasks:
 
 The `name`, `description`, `version` and `url` fields are displayed on the plugins page.
 
-## exec
+### exec
 
 For embedded plugins, the `exec` field is a list with the first element being the path to the Javascript file that will be executed. It is expected that the path to the Javascript file is relative to the directory of the plugin configuration file.
 
-## interface
+### interface
 
 For embedded plugins, the `interface` field must be set to one of the following values:
 * `js`
 
-# Javascript API
+---
 
-## Logging
+## Javascript API
+
+### Logging
 
 Stash provides the following API for logging in Javascript plugins:
 
@@ -115,7 +126,7 @@ Stash provides the following API for logging in Javascript plugins:
 | `log.Error(<string>)` | Log with the `error` log level. |
 | `log.Progress(<float between 0 and 1>)` | Sets the progress of the plugin task, as a float, where `0` represents 0% and `1` represents 100%. |
 
-## GQL
+### GQL
 
 Stash provides the following API for communicating with stash using the graphql interface:
 
@@ -123,7 +134,7 @@ Stash provides the following API for communicating with stash using the graphql 
 |--------|-------------|
 | `gql.Do(<query/mutation string>, <variables object>)` | Executes a graphql query/mutation on the stash server. Returns an object in the same way as a graphql query does. |
 
-### Example
+#### Example
 
 ```
 // creates a tag
@@ -144,7 +155,7 @@ result = gql.Do(mutation, variables);
 log.Info("tag id = " + result.tagCreate.id);
 ```
 
-## Utility functions
+### Utility functions
 
 Stash provides the following API for utility functions:
 

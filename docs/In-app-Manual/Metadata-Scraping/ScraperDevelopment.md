@@ -24,7 +24,9 @@ grand_parent: In-app Manual
 
 Scrapers can be contributed to the community by creating a PR in [this repository](https://github.com/stashapp/CommunityScrapers/pulls){:target="_blank"}.
 
-# Scraper configuration file format
+---
+
+## Scraper configuration file format
 
 ```yaml
 name: <site>
@@ -70,6 +72,7 @@ The scraping types and their required fields are outlined in the following table
 
 URL-based scraping accepts multiple scrape configurations, and each configuration requires a `url` field. stash iterates through these configurations, attempting to match the entered URL against the `url` fields in the configuration. It executes the first scraping configuration where the entered URL contains the value of the `url` field. 
 
+---
     
 ## Actions
 
@@ -284,7 +287,9 @@ sceneByFragment:
 stashServer:
   url: http://stashserver.com:9999
 ```
-  
+
+---
+
 ## Xpath and JSON scrapers configuration
 
 The top-level `xPathScrapers` field contains xpath scraping configurations, freely named. These are referenced in the `scraper` field for `scrapeXPath` scrapers. 
@@ -788,7 +793,10 @@ driver:
 # Last Updated April 7, 2021
 ```
 
+---
+
 ## Object fields
+
 ### Performer
 
 ```
@@ -819,6 +827,7 @@ Details
 *Note:*  - `Gender` must be one of `male`, `female`, `transgender_male`, `transgender_female`, `intersex`, `non_binary` (case insensitive).
 
 ### Scene
+
 ```
 Title
 Details
@@ -832,18 +841,22 @@ Movies (see Movie Fields)
 Tags (see Tag fields)
 Performers (list of Performer fields)
 ```
+
 ### Studio
+
 ```
 Name
 URL
 ```
 
 ### Tag
+
 ```
 Name
 ```
 
 ### Movie
+
 ```
 Name
 Aliases
@@ -859,6 +872,7 @@ BackImage
 ```
 
 ### Gallery
+
 ```
 Title
 Details

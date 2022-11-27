@@ -39,4 +39,5 @@ Once a scene is saved the scene and the matched studio/performers will have the 
 By default male performers are not shown, this can be enabled in the tagger config. Likewise scene tags are by default not saved. They can be set to either merge with existing tags on the scene, or overwrite them. It is not recommended to set tags currently since they are hard to deduplicate and can litter your data.
 
 #### Submitting fingerprints
+
 After a scene is saved you will prompted to submit the fingerprint back to the stash-box instance. This is optional, but can be helpful for other users who have an identical copy who will then be able to match via the fingerprint search. No other information than the `stash_id` and file fingerprint is submitted.

@@ -27,6 +27,8 @@ This section allows you to add and remove directories from your library list. Fi
 
 > **⚠️ Note:** Don't forget to click `Save` after updating these directories!
 
+---
+
 ## Excluded Patterns
 
 Given a valid [regex](https://github.com/google/re2/wiki/Syntax){:target="_blank"}, files that match even partially are excluded during the Scan process and are not entered in the database. Also during the Clean task if these files exist in the DB they are removed from it and their generated files get deleted.
@@ -57,6 +59,8 @@ exclude:
 
 _a useful [link](https://regex101.com/){:target="_blank"} to experiment with regexps_
 
+---
+
 ## Hashing algorithms
 
 Stash identifies video files by calculating a hash of the file. There are two algorithms available for hashing: `oshash` and `MD5`. `MD5` requires reading the entire file, and can therefore be slow, particularly when reading files over a network. `oshash` (which uses OpenSubtitle's hashing algorithm) only reads 64k from each end of the file.
@@ -83,10 +87,11 @@ These instructions are for existing users whose systems will be defaulted to use
 2. In Settings -> Configuration page, untick `Calculate MD5` and select `oshash` as file naming hash. Save the configuration.
 3. In Settings -> Tasks page, click on the `Rename generated files` migration button.
 
+---
 
 ## Parallel Scan/Generation
 
-#### Number of parallel task for scan/generation
+### Number of parallel task for scan/generation
 
 This setting controls how many sub-tasks will be run in parallel during scanning and generation tasks. (See Tasks)
 
@@ -97,6 +102,8 @@ This setting can be used to increase/decrease overall CPU utilisation in two sce
 2) Media files stored on remote/cloud filesystem.
 
 Note: If this is set too high it will decrease overall performance and causes failures (out of memory).
+
+---
 
 ## Scraping
 
@@ -110,9 +117,13 @@ Some scrapers require a Chrome instance to function correctly. If left empty, st
 
 `Chrome CDP path` can be set to a path to the chrome executable, or an http(s) address to remote chrome instance (for example: `http://localhost:9222/json/version`).
 
+---
+
 ## Authentication
 
 By default, stash is not configured with any sort of password protection. To enable password protection, both `Username` and `Password` must be populated. Note that when entering a new username and password where none was set previously, the system will immediately request these credentials to log you in.
+
+---
 
 ## API key
 
@@ -131,6 +142,8 @@ Stash saves login credentials in the config.yml file. You must reset both login 
 * Open the `config.yml` file found in your Stash directory with a text editor
 * Delete the `login` and `password` lines from the file and save
 Stash authentication should now be reset with no authentication credentials.
+
+---
 
 ## Advanced configuration options
 
