@@ -23,7 +23,7 @@ grand_parent: Getting Started
 
 ## Foreword
 
-Synology devices comes in two categories : those who support containerization through Docker, and those who don't. To see in which category you stand, refer to the "Applied Models" section of [the Docker Package page](https://www.synology.com/dsm/packages/Docker).
+Synology devices comes in two categories : those who support containerization through Docker, and those who don't. To see in which category you stand, refer to the "Applied Models" section of [the Docker Package page](https://www.synology.com/dsm/packages/Docker){:target="_blank"}.
 
 Now, follow the installation instructions based on whether you [can use Docker](#to-install-stash-with-docker) or [you cannot use Docker](#to-install-stash-without-docker).
 
@@ -31,8 +31,8 @@ Now, follow the installation instructions based on whether you [can use Docker](
 
 ## To install Stash with Docker
 
-- Make sure [the Docker app is installed](https://blog.pavelsklenar.com/how-to-install-and-use-docker-on-synology/) and running correctly.
-- [Search the registry for stash](https://hub.docker.com/r/stashapp/stash) and install.
+- Make sure [the Docker app is installed](https://blog.pavelsklenar.com/how-to-install-and-use-docker-on-synology/){:target="_blank"} and running correctly.
+- [Search the registry for stash](https://hub.docker.com/r/stashapp/stash){:target="_blank"} and install.
 - Create a stash image with the following set up in 'advanced options'
 
 ### "Volume" Tab
