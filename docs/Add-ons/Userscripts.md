@@ -20,7 +20,7 @@ parent: Add-ons
 
 ---
 
- Userscripts are programs written in Javascript that modifies web pages to add improve browsing with new features, formatting and more. 
+ Userscripts are programs written in Javascript that modifies web pages to improve browsing with new features, formatting and more. 
 
 To install the userscript you will need a browser extension such as [Violentmonkey](https://violentmonkey.github.io){:target="_blank"} / [Tampermonkey](https://www.tampermonkey.net){:target="_blank"} / [Greasemonkey](https://www.greasespot.net){:target="_blank"}.
 
