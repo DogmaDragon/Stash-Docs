@@ -24,7 +24,7 @@ Scripts are standalone programs that can interact with stash either through grap
 
 To install a script follow the script's install instructions.
 
-Scripts are separeted into 2 sections:
+Scripts are separated into 2 sections:
 
 ---
 

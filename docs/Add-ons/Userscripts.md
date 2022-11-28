@@ -29,7 +29,7 @@ To install the userscript you will need a browser extension such as [Violentmonk
 - **StashDB** - applies to StashDB.org stash-box instance (might work with other stash-box instances with some tweaking)
 - **Utility** - applies to sites not related to Stash
 
-Userscripts are separeted into 2 sections:
+Userscripts are separated into 2 sections:
 
 ---
 

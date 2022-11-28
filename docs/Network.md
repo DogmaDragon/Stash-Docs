@@ -15,8 +15,7 @@ has_toc: false
     Table of Contents
   </summary>
   {: .text-delta }
-1. TOC
-{:toc}
+1. [API]({{ site.baseurl }}/docs/Network/API/)
+2. [Reverse Proxy]({{ site.baseurl }}/docs/Network/Reverse-Proxy/)
+3. [Authentication Required When Accessing Stash From the Internet]({{ site.baseurl }}/docs/Network/Authentication-Required-When-Accessing-Stash-From-the-Internet/)
 </details>
-
----

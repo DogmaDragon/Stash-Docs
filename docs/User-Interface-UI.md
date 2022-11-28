@@ -15,8 +15,12 @@ has_toc: false
     Table of Contents
   </summary>
   {: .text-delta }
-1. TOC
-{:toc}
+1. [Themes]({{ site.baseurl }}/docs/User-Interface-UI/Themes/)
+  - [Theme Pulsar]({{ site.baseurl }}/docs/User-Interface-UI/Themes/Theme-Pulsar/)
+  - [Theme Light Pulsar]({{ site.baseurl }}/docs/User-Interface-UI/Themes/Theme-Pulsar/)
+  - [Theme Night]({{ site.baseurl }}/docs/User-Interface-UI/Themes/Theme-Pulsar/)
+  - [Theme Plex]({{ site.baseurl }}/docs/User-Interface-UI/Themes/Theme-Pulsar/)
+  - [Theme Black Hole]({{ site.baseurl }}/docs/User-Interface-UI/Themes/Theme-Pulsar/)
+  - [Modern Dark]({{ site.baseurl }}/docs/User-Interface-UI/Themes/Theme-Pulsar/)
+2. [Custom CSS Snippets]({{ site.baseurl }}/docs/User-Interface-UI/Custom-CSS-Snippets/)
 </details>
-
----

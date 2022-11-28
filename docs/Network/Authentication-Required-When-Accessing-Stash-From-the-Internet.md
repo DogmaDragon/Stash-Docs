@@ -20,7 +20,7 @@ parent: Network
 
 ---
 
-Support is always available on our [Discord](https://discord.gg/2TsNFKt).
+Support is always available on our [Discord](https://discord.gg/2TsNFKt){:target="_blank"}.
 
 ---
 
@@ -32,7 +32,7 @@ This often happens when you use the port-forwarding feature of your router or in
 
 ### Alternative and safe methods to access your Stash
 
-You may use several methods to safely access Stash from outside of your home network. In the most basic, you can enable authentication in Stash, and re-enable port forwarding. You can also use a VPN solution that allows you to securely access your home network, such as [Tailscale](https://tailscale.com), [Zerotier](https://zerotier.com), [Wireguard](https://www.digitalocean.com/community/tutorials/how-to-set-up-wireguard-on-ubuntu-20-04), or others.
+You may use several methods to safely access Stash from outside of your home network. In the most basic, you can enable authentication in Stash, and re-enable port forwarding. You can also use a VPN solution that allows you to securely access your home network, such as [Tailscale](https://tailscale.com){:target="_blank"}, [Zerotier](https://zerotier.com){:target="_blank"}, [Wireguard](https://www.digitalocean.com/community/tutorials/how-to-set-up-wireguard-on-ubuntu-20-04){:target="_blank"}, or others.
 
 ### Using an external authentication provider
 
