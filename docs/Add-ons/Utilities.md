@@ -22,6 +22,9 @@ parent: Add-ons
 
 Utilities are other external applications that utilise or interact with stash in some way.
 
+{: .note }
+These utilities are created by third parties and not officially affiliated or supported by the core Stash team. If you have issues, please reach out to the original creators.
+
 Category | Name | Author | Description
 -|-|-|-
 Companion | [Stash_helper](https://github.com/philpw99/Stash_Helper){:target="_blank"} | philpw99 | Adds some windows-specific tools to Stash (navigate from icon, installation help, etc)
