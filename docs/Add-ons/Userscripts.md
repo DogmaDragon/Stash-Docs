@@ -20,9 +20,14 @@ parent: Add-ons
 
 ---
 
-Userscripts adds further features that Stash doesn't itself provide. 
+ Userscripts are programs written in Javascript that modifies web pages to add improve browsing with new features, formatting and more. 
 
 To install the userscript you will need a browser extension such as [Violentmonkey](https://violentmonkey.github.io){:target="_blank"} / [Tampermonkey](https://www.tampermonkey.net){:target="_blank"} / [Greasemonkey](https://www.greasespot.net){:target="_blank"}.
+
+## Categories
+- **Stash** - applies to Stash software
+- **StashDB** - applies to StashDB.org stash-box instance (might work with other stash-box instances withj some tweaking)
+- **Utility** - applies to sites not related to Stash
 
 Userscripts are separeted into 2 sections:
 
@@ -67,6 +72,22 @@ Stash | [Stash StashID Input](https://github.com/7dJx1qP/stash-userscripts){:tar
 Stash | [Stash Stats](https://github.com/7dJx1qP/stash-userscripts){:target="_blank"} | 7dJx1qP | Adds new stats to the stats page: marker count, favorite performer count, studios with stashid %, performers with stashid %, scenes with stashid %
 Stash | [Stash Studio Image And Parent On Create](https://github.com/7dJx1qP/stash-userscripts){:target="_blank"} | 7dJx1qP | In Scene Tagger, sets studio image and parent studio from StashDB when a studio is created
 Stash | [Stash Tag Image Cropper](https://github.com/7dJx1qP/stash-userscripts){:target="_blank"} | 7dJx1qP | Adds ability to crop tag image from tag page
+Stash | [Visage](https://github.com/cc1234475/visage){:target="_blank"} | cc1234475 | Visage is a series of tools to do facial recognition on images (and create a searchable database)
 StashDB | [StashDB Copy StashID](https://github.com/7dJx1qP/stashdb-userscripts){:target="_blank"} | 7dJx1qP | Adds a button to copy StashID
-Stash | [Visage](https://github.com/cc1234475/visage){:target="_blank"} | cc1234475 | Visage is a series of tools to do facial recognition on images
+StashDB | [StashDB Backlog Userscript](https://gist.github.com/peolic/e4713081f7ad063cd0e91f2482ac39a7){:target="_blank"} | peolic | This userscript is used to be able to view pending changes from the StashDB Backlog spreadsheet directly on StashDB
+StashDB | [StashDB Images Userscript](https://gist.github.com/peolic/7368022947a28ef11bf44d0ae802df45){:target="_blank"} | peolic | This userscript adds image resolutions next to every performer image on StashDB
+StashDB | [StashDB ID Copy Buttons](https://github.com/peolic/userscripts){:target="_blank"} | peolic | Adds buttons to copy StashID
+Utility | [Indexxx Helper Userscript](https://github.com/peolic/userscripts){:target="_blank"} | peolic | This userscript adds useful tools to indexxx.com
+Utility | [IAFD Helper Userscript](https://github.com/peolic/userscripts){:target="_blank"} | peolic | This userscript converts dates to YYYY-MM-DD and provides a filter for the studios search page on iafd.com
+Utility | [ManyVids Release Year Userscript](https://github.com/peolic/userscripts){:target="_blank"} | peolic | This userscript adds the year to partial video release dates on manyvids.com
+Utility | [Brazzers Sub-Studio Userscript](https://github.com/peolic/userscripts){:target="_blank"} | peolic | This userscript adds the sub-studio of a Brazzers scene to the video page
+Utility | [1 Pass For All Sites - Better Episode Image](https://github.com/peolic/userscripts){:target="_blank"} | peolic | Attempts to grab a better episode image
+Utility | [CumLouder](https://github.com/peolic/userscripts){:target="_blank"} | peolic | Adds site logo and name to video pages. May not work for all videos.
+Utility | [ExploitedX Sites - Release Codes](https://github.com/peolic/userscripts){:target="_blank"} | peolic | Shows episode numbers for ExploitedX sites.
+Utility | [FTVCash - Better Image](https://github.com/peolic/userscripts){:target="_blank"} | peolic | Attempts to grab a better episode image
+Utility | [Gamma Entertainment - Scene Length](https://github.com/peolic/userscripts){:target="_blank"} | peolic | Adds scene length information on Gamma Entertainment sites
+Utility | [Kink - Find Duration](https://github.com/peolic/userscripts){:target="_blank"} | peolic | Add "find duration" link to shoot pages
+Utility | [MindGeek Scene Trailer](https://github.com/peolic/userscripts){:target="_blank"} | peolic | Shows trailers on MindGeek sites
+Utility | [Porn Pros](https://github.com/peolic/userscripts){:target="_blank"} | peolic | Fixes duration on Porn Pros sites
+
 
