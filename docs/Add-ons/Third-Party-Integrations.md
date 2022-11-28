@@ -19,3 +19,9 @@ parent: Add-ons
 </details>
 
 ---
+
+Integrations are repositories developed to integrate Stash into other programs.
+
+Category | Name | Author | Description
+-|-|-|-
+Kodi | [plugin.video.stash](https://github.com/gitgiggety/plugin.video.stash){:target="_blank"} | gitgiggety | plugin.video.stash is an add-on for the Kodi home theater center software to incorporate Stash, an organizer for your porn

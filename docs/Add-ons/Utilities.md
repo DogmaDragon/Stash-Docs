@@ -19,3 +19,11 @@ parent: Add-ons
 </details>
 
 ---
+
+Utilities are other external applications that utilise or interact with stash in some way.
+
+Category | Name | Author | Description
+-|-|-|-
+Companion | [Stash_helper](https://github.com/philpw99/Stash_Helper){:target="_blank"} | philpw99 | Adds some windows-specific tools to Stash (navigate from icon, installation help, etc)
+VR | [stash-vr](https://github.com/o-fl0w/stash-vr){:target="_blank"} | o-fl0w | Watch your stash library in VR.
+VR | [stash-vr-companion](https://github.com/Tweeticoats/stash-vr-companion){:target="_blank"} | Tweeticoats  | Similar to stash-deovr as above but designed as a web app that sits in a docker container next to stash to make it easier to use and add more functionality.
