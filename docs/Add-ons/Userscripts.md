@@ -22,7 +22,7 @@ parent: Add-ons
 
 Userscripts adds further features that Stash doesn't itself provide. 
 
-To install the userscript you will need a browser extension such as [Violentmonkey](https://violentmonkey.github.io/) / [Tampermonkey](https://www.tampermonkey.net/) / [Greasemonkey](https://www.greasespot.net/).
+To install the userscript you will need a browser extension such as [Violentmonkey](https://violentmonkey.github.io){:target="_blank"} / [Tampermonkey](https://www.tampermonkey.net){:target="_blank"} / [Greasemonkey](https://www.greasespot.net){:target="_blank"}.
 
 Userscripts are separeted into 2 sections:
 
@@ -30,7 +30,7 @@ Userscripts are separeted into 2 sections:
 
 ## Official
 
-Official userscripts are hosted on [CommunityScripts repository](https://github.com/stashapp/CommunityScripts){:target="_blank"}. All code is reviewed by core Stash team and any questions or issues you have regarding these plugins can be raised in Discord or GitHub. 
+Official userscripts are hosted on [CommunityScripts repository](https://github.com/stashapp/CommunityScripts){:target="_blank"}. All code is reviewed by core Stash team and any questions or issues you have regarding these userscripts can be raised in Discord or GitHub. 
 
 | Category | Userscript Name | Description |
 ---------|---------------|-----------|
@@ -45,3 +45,28 @@ These userscripts are created by third parties and not officially affiliated or 
 
 Category | Plugin | Author | Description
 -|-|-|-
+Stash | [Stash Batch Query Edit](https://github.com/7dJx1qP/stash-userscripts){:target="_blank"} | 7dJx1qP | In Scene Tagger, adds button to batch update all query fields with a configurable combination of Date, Studio, Performers, and Title
+Stash | [Stash Batch Result Toggle](https://github.com/7dJx1qP/stash-userscripts){:target="_blank"} | 7dJx1qP | In Scene Tagger, adds button to toggle all stashdb scene match result fields. Saves clicks when you only want to save a few metadata fields. Instead of turning off every field, you batch toggle them off, then toggle on the ones you want
+Stash | [Stash Batch Save](https://github.com/7dJx1qP/stash-userscripts){:target="_blank"} | 7dJx1qP | In Scene Tagger, adds button to batch save all scenes. Opens a confirmation popup with clicked
+Stash | [Stash Batch Search](https://github.com/7dJx1qP/stash-userscripts){:target="_blank"} | 7dJx1qP | In Scene Tagger, adds button to batch search all scenes
+Stash | [Stash Markdown](https://github.com/7dJx1qP/stash-userscripts){:target="_blank"} | 7dJx1qP | Adds markdown parsing to tag description fields
+Stash | [Stash New Performer Filter Button](https://github.com/7dJx1qP/stash-userscripts){:target="_blank"} | 7dJx1qP | Adds button to performers page to switch to a filter by new performers tagger view
+Stash | [Stash Open Media Player](https://github.com/7dJx1qP/stash-userscripts){:target="_blank"} | 7dJx1qP | Open filepath link on scene page 'File Info' tab in an external media player when clicked
+Stash | [Stash Performer Audit Task Button](https://github.com/7dJx1qP/stash-userscripts){:target="_blank"} | 7dJx1qP | Adds a button to the performers page to check for duplicate performer urls. Task output shown in stash logs
+Stash | [Stash Performer Image Cropper](https://github.com/7dJx1qP/stash-userscripts){:target="_blank"} | 7dJx1qP | Adds ability to crop performer image from performer page
+Stash | [Stash Performer Markers Tab](https://github.com/7dJx1qP/stash-userscripts){:target="_blank"} | 7dJx1qP | Adds a Markers link to performer pages
+Stash | [Stash Performer Tagger Additions](https://github.com/7dJx1qP/stash-userscripts){:target="_blank"} | 7dJx1qP | Adds performer birthdate and url to tagger view. Makes clicking performer name open stash profile in new tab instead of current tab
+Stash | [Stash Performer URL Searchbox](https://github.com/7dJx1qP/stash-userscripts){:target="_blank"} | 7dJx1qP | Adds a performer URL search textbox to performers page for quicker searching by performer URL
+Stash | [Stash Scene Tagger Additions](https://github.com/7dJx1qP/stash-userscripts){:target="_blank"} | 7dJx1qP | Adds scene duration, filepath, and url to tagger view in the collapsible scene details sections. Adds shift-click to collapsible scene details buttons to open/close all.
+Stash | [Stash Scene Tagger Colorizer](https://github.com/7dJx1qP/stash-userscripts){:target="_blank"} | 7dJx1qP | In Scene Tagger, colorize scrape results. Matching fields are green, missing fields are yellow, and mismatching fields are red
+Stash | [Stash Scene Tagger Draft Submit](https://github.com/7dJx1qP/stash-userscripts){:target="_blank"} | 7dJx1qP | Adds button to Scene Tagger to submit draft to stashdb	
+Stash | [Stash Scene Tagger Linkify](https://github.com/7dJx1qP/stash-userscripts){:target="_blank"} | 7dJx1qP | Turn all scene tagger result text referencing stash or stashbox studio and performer names into clickable links
+Stash | [Stash Set Stashbox Favorite Performers](https://github.com/7dJx1qP/stash-userscripts){:target="_blank"} | 7dJx1qP | Sync Stashbox favorite performers whenever a stash performer is favorited or unfavorited. Also adds button to performers page to sync all
+Stash | [Stash StashID Icon](https://github.com/7dJx1qP/stash-userscripts){:target="_blank"} | 7dJx1qP | Adds checkmark icon to performer and studio cards that have a stashid
+Stash | [Stash StashID Input](https://github.com/7dJx1qP/stash-userscripts){:target="_blank"} | 7dJx1qP | Adds input textboxes to performer detail and studio detail pages for stashid entry. Also displays studio stashids on studio page without having to click edit to view
+Stash | [Stash Stats](https://github.com/7dJx1qP/stash-userscripts){:target="_blank"} | 7dJx1qP | Adds new stats to the stats page: marker count, favorite performer count, studios with stashid %, performers with stashid %, scenes with stashid %
+Stash | [Stash Studio Image And Parent On Create](https://github.com/7dJx1qP/stash-userscripts){:target="_blank"} | 7dJx1qP | In Scene Tagger, sets studio image and parent studio from StashDB when a studio is created
+Stash | [Stash Tag Image Cropper](https://github.com/7dJx1qP/stash-userscripts){:target="_blank"} | 7dJx1qP | Adds ability to crop tag image from tag page
+StashDB | [StashDB Copy StashID](https://github.com/7dJx1qP/stashdb-userscripts){:target="_blank"} | 7dJx1qP | Adds a button to copy StashID
+Stash | [Visage](https://github.com/cc1234475/visage){:target="_blank"} | cc1234475 | Visage is a series of tools to do facial recognition on images
+

@@ -30,7 +30,7 @@ Scripts are separeted into 2 sections:
 
 ## Official
 
-Official scripts are hosted on [CommunityScripts repository](https://github.com/stashapp/CommunityScripts){:target="_blank"}. All code is reviewed by core Stash team and any questions or issues you have regarding these plugins can be raised in Discord or GitHub. 
+Official scripts are hosted on [CommunityScripts repository](https://github.com/stashapp/CommunityScripts){:target="_blank"}. All code is reviewed by core Stash team and any questions or issues you have regarding these scripts can be raised in Discord or GitHub. 
 
 Category | Plugin Name | Description | Minimum Stash version
 --------|-----------|-----------|---------------------
