@@ -34,7 +34,7 @@ Official plugins are hosted on [CommunityScripts repository](https://github.com/
 
 Category|Triggers|Plugin Name|Description|Minimum Stash version
 --------|-----------|-----------|-----------|---------------------
-Scraper|Task|[GHScraper_Checker](https://github.com/stashapp/CommunityScripts/tree/main/plugins/GHScraper_Checker){:target="_blank"}|Compare local file against github file from the community scraper repo.|v0.8
+Scraper | Task | [GHScraper_Checker](https://github.com/stashapp/CommunityScripts/tree/main/plugins/GHScraper_Checker){:target="_blank"} | Compare local file against github file from the community scraper repo. | v0.8
 Maintenance|Task<br />Scene.Update|[renamerOnUpdate](https://github.com/stashapp/CommunityScripts/blob/main/plugins/renamerOnUpdate){:target="_blank"}|Rename/Move your file based on Stash metadata.|v0.7
 Maintenance|Set Scene Cover|[setSceneCoverFromFile](https://github.com/stashapp/CommunityScripts/blob/main/plugins/setSceneCoverFromFile){:target="_blank"}|Searchs Stash for Scenes with a cover image in the same folder and sets the cover image in stash to that image|v0.7
 Scenes|SceneMarker.Create<br />SceneMarker.Update|[markerTagToScene](https://github.com/stashapp/CommunityScripts/blob/main/plugins/markerTagToScene){:target="_blank"}|Adds primary tag of Scene Marker to the Scene on marker create/update.|v0.8 ([46bbede](https://github.com/stashapp/stash/commit/46bbede9a07144797d6f26cf414205b390ca88f9){:target="_blank"})

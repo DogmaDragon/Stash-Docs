@@ -27,14 +27,22 @@ All scrapers are ".yml" files. Some scrapers like script scrapers also come with
 
 ### Installation
 To install a scraper:
-  1) Make sure you have the "scrapers" folder in the same location of your Stash app. If you don't have it, create that folder/directory. You can also specify the name of this folder in the config.yml.
-  2) Go to the [community scrapers repo](https://github.com/stashapp/CommunityScrapers){:target="_blank"} and download the scraper you want. Read the [scrapers list](https://github.com/stashapp/CommunityScrapers/blob/master/SCRAPERS-LIST.md){:target="_blank"} and make sure which one to download. All scrapers are in .yml format. Some of them requires Python, if you use those, you need to install Python in your machine, and don't forget to get the corresponding .py file as well.
-<br>Note: For Python scrapers, it's also helpful to read the .py file. Some of them require extra python components installed to work.
-  3) Once the new scrapers are in position, you need to go to "Settings->Scraping" and click on "Reload Scrapers" button. You should see your scrapers listed in the list below that button.
-  4) Navigate to the scene/gallery/movie/performer you want to scrape.
-* If that's a URL scraper, you need to paste the URL in its "URL" blanket, and the scrape icon next to it should light up.
-* If that's a Search-By-Name scraper, you can provide the name and choose "Scrape With...", and the scraper should fetch the list of potential matches for you.
-5) You will preview the scrape result before you commit the change. Check on the left will keep the original value, check on the right will make the change.
+1. Make sure you have the "scrapers" folder in the same location of your Stash app. If you don't have it, create that folder/directory. You can also specify the name of this folder in the config.yml.
+2. Go to the [community scrapers repo](https://github.com/stashapp/CommunityScrapers){:target="_blank"} and download the scraper you want. Read the [scrapers list](https://github.com/stashapp/CommunityScrapers/blob/master/SCRAPERS-LIST.md){:target="_blank"} and make sure which one to download. All scrapers are in .yml format. Some of them requires Python, if you use those, you need to install Python in your machine, and don't forget to get the corresponding .py file as well.
+
+{: .note }
+For Python scrapers, it's also helpful to read the .py file. Some of them require extra python components installed to work.
+
+{:style="counter-reset:none"}
+3. Once the new scrapers are in position, you need to go to "Settings->Scraping" and click on "Reload Scrapers" button. You should see your scrapers listed in the list below that button.
+
+{:style="counter-reset:none"}
+4. Navigate to the scene/gallery/movie/performer you want to scrape.
+  - If that's a URL scraper, you need to paste the URL in its "URL" blanket, and the scrape icon next to it should light up.
+  - If that's a Search-By-Name scraper, you can provide the name and choose "Scrape With...", and the scraper should fetch the list of potential matches for you.
+
+{:style="counter-reset:none"}
+5. You will preview the scrape result before you commit the change. Check on the left will keep the original value, check on the right will make the change.
 
 ---
 
