@@ -34,7 +34,7 @@ Stash supports Custom CSS themes to adjust the look-and-feel of the interface. T
 
 ## Creating Themes
 
-If you would like to develop your own theme, we have a [reference guide of CSS snippets that may be useful.]({{ site.baseurl }}/docs/Custom-CSS-snippets)
+If you would like to develop your own theme, we have a [reference guide of CSS snippets that may be useful]({{ site.baseurl }}/docs/Custom-CSS-snippets).
 
 ---
 

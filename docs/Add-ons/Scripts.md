@@ -24,6 +24,26 @@ Scripts are standalone programs that can interact with stash either through grap
 
 To install a script follow the script's install instructions.
 
-Category | Script | Author | Description
+Scripts are separeted into 2 sections:
+
+---
+
+## Official
+
+Official scripts are hosted on [CommunityScripts repository](https://github.com/stashapp/CommunityScripts){:target="_blank"}. All code is reviewed by core Stash team and any questions or issues you have regarding these plugins can be raised in Discord or GitHub. 
+
+Category | Plugin Name | Description | Minimum Stash version
+--------|-----------|-----------|---------------------
+Kodi | [Kodi Helper](https://github.com/stashapp/CommunityScripts/blob/main/scripts/kodi-helper){:target="_blank"} | Generates `nfo` and `strm` for use with Kodi. | v0.7
+Maintenance | [Stash Sqlite Renamer](https://github.com/stashapp/CommunityScripts/blob/main/scripts/Sqlite_Renamer){:target="_blank"} | Renames your files using stash's metadata. | v0.7
+
+---
+
+## Third-party
+
+{: .note }
+These scripts are created by third parties and not officially affiliated or supported by the core Stash team. If you have issues, please reach out to the original creators.
+
+Category | Plugin | Author | Description
 -|-|-|-
-Maintenance | [SQLITE Renamer for Stash](https://github.com/Belleyy/Stash-Renamer-Python){:target="_blank"} | Belley  | Renames your files using stash's metadata
+
