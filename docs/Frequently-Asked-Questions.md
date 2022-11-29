@@ -74,7 +74,7 @@ Stash uses 2 different methods to track your scenes: oshash and filename/path.  
 
 ### How do I add galleries?
 
-For gallery-related issues check the relevant Documentation [section]({{ site.baseurl }}/docs/In-app-Manual/Galleries.md).
+For gallery-related issues check the relevant Documentation [section]({{ site.baseurl }}/docs/In-app-Manual/Galleries/).
 
 ---
 
