@@ -31,9 +31,9 @@ Stash saves login credentials in the `config.yml` file. You must reset both logi
 
 ### How can I connect to my server from elsewhere within my network?
 
-Find the local IP address of your Stash Server (guides for [Windows](https://support.microsoft.com/en-us/windows/find-your-ip-address-in-windows-f21a9bbc-c582-55cd-35e0-73431160a1b9), [MacOS](https://support.apple.com/guide/mac-help/find-your-computers-name-and-network-address-mchlp1177/11.0/mac/11.0), [Linux](https://wiki.archlinux.org/title/Network_configuration#IP_addresses)). Then, on another device on your local network, open a browser to http://SERVER.IP.ADDRESS.HERE:9999/
+Find the local IP address of your Stash Server (guides for [Windows](https://support.microsoft.com/en-us/windows/find-your-ip-address-in-windows-f21a9bbc-c582-55cd-35e0-73431160a1b9){:target="_blank"}, [MacOS](https://support.apple.com/guide/mac-help/find-your-computers-name-and-network-address-mchlp1177/11.0/mac/11.0){:target="_blank"}, [Linux](https://wiki.archlinux.org/title/Network_configuration#IP_addresses){:target="_blank"}). Then, on another device on your local network, open a browser to http://SERVER.IP.ADDRESS.HERE:9999/
 
-See [this article]({{ site.baseurl }}/docs/Authentication-Required-When-Accessing-Stash-From-the-Internet#alternative-and-safe-methods-to-access-your-stash) for ideas on accessing your stash from outside your network.
+See [this article]({{ site.baseurl }}/docs/Network/Authentication-Required-When-Accessing-Stash-From-the-Internet#alternative-and-safe-methods-to-access-your-stash) for ideas on accessing your stash from outside your network.
 
 ### How do I serve Stash over SSL/TLS (HTTPS)?
 
@@ -43,7 +43,7 @@ First you must generate a SSL certificate and key combo.  Here is an example usi
 
 `openssl req -x509 -newkey rsa:4096 -sha256 -days 7300 -nodes -keyout stash.key -out stash.crt -extensions san -config <(echo "[req]"; echo distinguished_name=req; echo "[san]"; echo subjectAltName=DNS:stash.server,IP:127.0.0.1) -subj /CN=stash.server`
 
-This command would need customizing for your environment.  [This link](https://stackoverflow.com/questions/10175812/how-to-create-a-self-signed-certificate-with-openssl) might be useful.
+This command would need customizing for your environment.  [This link](https://stackoverflow.com/questions/10175812/how-to-create-a-self-signed-certificate-with-openssl){:target="_blank"} might be useful.
 
 Once you have a certificate and key file name them `stash.crt` and `stash.key` and place them in the same directory as the `config.yml` file, or the `~/.stash` directory.  Stash detects these and starts up using HTTPS rather than HTTP.
 
@@ -58,7 +58,7 @@ The basepath defaults to `/`. When running stash via a reverse proxy in a subpat
 ### What's the best way to add metadata to Stash?
 
 * StashDB is a service that allows for crowdsourcing of porn metadata. Check the pinned messages in the #stashbox-invites channel in Discord to start using it.
-* Stash includes a single scraper, but you can add more via the [CommunityScrapers repo](https://github.com/stashapp/CommunityScrapers). See the README for installation and usage instructions.
+* Stash includes a single scraper, but you can add more via the [CommunityScrapers repository](https://github.com/stashapp/CommunityScrapers){:target="_blank"}. See the README for installation and usage instructions.
 
 ### How do I rename or relocate a library folder or scenes?
 
@@ -74,7 +74,7 @@ Stash uses 2 different methods to track your scenes: oshash and filename/path.  
 
 ### How do I add galleries?
 
-For gallery-related issues check the relevant Documentation [section](https://github.com/stashapp/stash/blob/develop/ui/v2.5/src/docs/en/Galleries.md).
+For gallery-related issues check the relevant Documentation [section]({{ site.baseurl }}/docs/In-app-Manual/Galleries.md).
 
 ---
 
@@ -82,9 +82,11 @@ For gallery-related issues check the relevant Documentation [section](https://gi
 
 ### Scrape behind paywall
 
-A regular scraper can only scrape information from webpages that are open to the public access. If you want to scrape a webpage that requires login or behind a paywall, you need to use the "Visible CDP" technique. So far this technique was tested and passed under Windows 10 only. <p>
-Normal CDP scraping will launch a headless chrome browser, which will not show up for any user interactions. "Visible CDP" turns the "headless chrome" into a "visible" instance.<p>
-Steps: <p>
+A regular scraper can only scrape information from webpages that are open to the public access. If you want to scrape a webpage that requires login or behind a paywall, you need to use the "Visible CDP" technique. So far this technique was tested and passed under Windows 10 only.
+
+Normal CDP scraping will launch a headless chrome browser, which will not show up for any user interactions. "Visible CDP" turns the "headless chrome" into a "visible" instance.
+
+Steps:
 1. Prepare your scraper's .yml file and make sure it's valid and working. Your scraper should have the following setting inside:
 ```
 driver:
@@ -101,7 +103,7 @@ driver:
 
 ### Known Issues
 
-- Performer images uploaded in WebP format will not display on versions of Safari prior to version 13 or on anything earlier than MacOS Big Sur. This is a [limitation of Safari](https://caniuse.com/webp). As a workaround, ensure you are uploading performer images in jpg or png format.
+- Performer images uploaded in WebP format will not display on versions of Safari prior to version 13 or on anything earlier than MacOS Big Sur. This is a [limitation of Safari](https://caniuse.com/webp){:target="_blank"}. As a workaround, ensure you are uploading performer images in jpg or png format.
 
 ### Stash is showing a "FFMPEG Not Found" error
 
@@ -116,4 +118,4 @@ The `ffmpeg` and `ffprobe` files should be placed in `~/.stash` on macOS / Linux
 
 ### I have a question not answered here.
 
-Join the Stash [Discord server](https://discord.gg/2TsNFKt).
+Join the Stash [Discord server](https://discord.gg/2TsNFKt){:target="_blank"}.

@@ -15,7 +15,7 @@ has_toc: false
     Table of Contents
   </summary>
   {: .text-delta }
-1. [API]({{ site.baseurl }}/docs/Network/API/)
-2. [Reverse Proxy]({{ site.baseurl }}/docs/Network/Reverse-Proxy/)
-3. [Authentication Required When Accessing Stash From the Internet]({{ site.baseurl }}/docs/Network/Authentication-Required-When-Accessing-Stash-From-the-Internet/)
+1. [Advanced Configuration Options]({{ site.baseurl }}/docs/Advanced-Tutorials/Advanced-Configuration-Options/)
+2. [Importing via CSV Using gql-iterate]({{ site.baseurl }}/docs/Advanced-Tutorials/Importing-via-CSV-Using-gql-iterate/)
+3. [Manually Editing the Stash Sqlite3 Database]({{ site.baseurl }}/docs/Advanced-Tutorials/Manually-Editing-the-Stash-Sqlite3-Database/)
 </details>
