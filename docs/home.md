@@ -22,7 +22,7 @@ permalink: /
 </details>
 
 <style>
-.no-border > img {
+.no-border > a > img {
     border: none;
 }
 </style>
