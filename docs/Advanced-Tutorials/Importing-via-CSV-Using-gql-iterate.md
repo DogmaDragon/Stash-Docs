@@ -137,6 +137,9 @@ If you're unable to get this to work, then **omit** the **favorite** and **image
 
 ## Step 4
 
+{: .note }
+Must use numerical IP instead of localhost.
+
  Run this CLI command (assumes your files are in current directory and location for gql-interate is in your path)
 
 `gql-iterate --host http://_yourserverIP:portgoeshere_/graphql --input ./performerdata.csv --query ./performers.gql`
