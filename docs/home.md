@@ -21,6 +21,12 @@ permalink: /
 {:toc}
 </details>
 
+<style>
+.no-border > img {
+    border: none;
+}
+</style>
+
 ---
 
 ## Stash in Action
@@ -30,4 +36,4 @@ Safe for work demo video of how Stash looks and what functionality it has.
 {: .note }
 Video is a bit outdated and more functionality was added since it was created. 
 
-[![Stash 0.5.0 SFW demo (2021-02-23)](Home/assets/video.png)](https://player.vimeo.com/video/545323354 "Stash 0.5.0 SFW demo (2021-02-23)"){:target="_blank"}
+<span class="no=border">[![Stash 0.5.0 SFW demo (2021-02-23)](Home/assets/video.png)](https://player.vimeo.com/video/545323354 "Stash 0.5.0 SFW demo (2021-02-23)"){:target="_blank"}</span>
