@@ -39,5 +39,3 @@ Internal Stash documentation, mirrored from [Stash repository](https://github.co
 14. [Contributing]({{ site.baseurl }}/docs/In-app-Manual/Contributing)
 15. [Further Help]({{ site.baseurl }}/docs/In-app-Manual/Help)
 </details>
-
----
