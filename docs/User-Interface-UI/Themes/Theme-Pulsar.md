@@ -23,22 +23,24 @@ grand_parent: User Interface (UI)
 
 ## Pulsar Theme for StashApp
 
+A new custom theme for Stash. Installation is quick and easy so you should be ready to install it in just a few simple steps. 
+
+Feel free to experiment with CSS and modify it to fit your needs. In case you have any issues or improvements we will be happy to hear from you on our **[Discord server](https://discord.gg/2TsNFKt){:target="_blank"}**!
+
+The Theme will only change the look&feel of the Stash interface. It **will not** affect any other data, so you are all safe and sound! :heart:
+
+### Screenshots
+
 ![Pulsar preview #1](assets/pulsar-1.jpg)
 ![Pulsar preview #2](assets/pulsar-2.jpg)
 ![Pulsar preview #3](assets/pulsar-3.jpg)
 ![Pulsar preview #4](assets/pulsar-4.jpg)
 
-A new custom theme for Stash. Installation is quick and easy so you should be ready to install it in just a few simple steps. 
-
-Feel free to experiment with CSS and modify it to fit your needs. In case you have any issues or improvements we will be happy to hear from you on our **[Discord server](https://discord.gg/2TsNFKt)**!
-
-The Theme will only change the look&feel of the Stash interface. It **will not** affect any other data, so you are all safe and sound! :heart:
-
 ---
 
 ## Install
 
-1. Open User **Interface** Configuration panel in **settings**. ( http://localhost:9999/settings?tab=interface ) 
+1. Open User **Interface** Configuration panel in **settings**. (http://localhost:9999/settings?tab=interface) 
 
 2. Tick/Enable Custom CSS ✅  
 

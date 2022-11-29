@@ -21,62 +21,37 @@ grand_parent: User Interface (UI)
 
 ---
 
-# Light Pulsar Theme for StashApp
-
-&nbsp;
-<p align="center">
-    <a href="https://discord.gg/2TsNFKt">
-        <img src="https://img.shields.io/discord/559159668438728723.svg?logo=discord" alt="Discord" />
-    </a>
-</p>
-
-
-<img src="https://i.imgur.com/kgh7m5X.jpg" />
-
-<img src="https://i.imgur.com/14fjwYZ.jpg" />
-
-<img src="https://i.imgur.com/Zs4rCOy.jpg" />
-
-&nbsp;
+## Light Pulsar Theme for StashApp
 
 A new custom theme for Stash. Installation is quick and easy so you should be ready to install it in just a few simple steps. 
 
-Feel free to experiment with CSS and modify it to fit your needs. In case you have any issues or improvements we will be happy to hear from you on our **[Discord server](https://discord.gg/2TsNFKt)**!
+Feel free to experiment with CSS and modify it to fit your needs. In case you have any issues or improvements we will be happy to hear from you on our **[Discord server](https://discord.gg/2TsNFKt){:target="_blank"}**!
 
 The Theme will only change the look&feel of the Stash interface. It **will not** affect any other data, so you are all safe and sound! :heart:
 
-&nbsp;
+### Screenshots
 
-# Install
+![Light Pulsar preview #1](assets/light-pulsar-1.jpg)
+![Light Pulsar preview #2](assets/light-pulsar-2.jpg)
+![Light Pulsar preview #3](assets/light-pulsar-3.jpg)
 
-**1.** Open User **Interface** Configuration panel in **settings**. ( http://localhost:9999/settings?tab=interface ) 
+---
 
-**2.** Tick/Enable Custom CSS ✅  
+## Install
 
-**3.** Copy&Paste [CSS Code](#css-code) to the Custom CSS text area. 
+1. Open User **Interface** Configuration panel in **settings**. (http://localhost:9999/settings?tab=interface) 
 
-**4.** Select one of the background images that you find at the top of the CSS code by removing the commentary ( _/*_ ) at the beginning of the line (_Flower_ is the standard background), or use your own wallpaper as _"background.jpg"_, and place the image in **`~/.stash/custom`** on macOS / Linux or **`C:\Users\YourUsername\.stash\custom`** on Windows.
+2. Tick/Enable Custom CSS ✅  
 
+3. Copy&Paste [CSS Code](#css-code) to the Custom CSS text area. 
 
-
-
-
-
-
-&nbsp;
-
+4. Select one of the background images that you find at the top of the CSS code by removing the commentary ( _/*_ ) at the beginning of the line (_Flower_ is the standard background), or use your own wallpaper as _"background.jpg"_, and place the image in **`~/.stash/custom`** on macOS / Linux or **`C:\Users\YourUsername\.stash\custom`** on Windows.
 
 Enjoy!
 
+## CSS Code
 
-&nbsp;
-
-
-# CSS Code
-
-
-
-```
+```css
 /*		Light Pulsar Theme - Fonzie 2021 v0.3.1		 */
 /* ---------------------------------------------------- */
 /* --------- Updated to Stash version 0.12.0 ---------- */

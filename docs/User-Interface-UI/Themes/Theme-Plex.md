@@ -21,79 +21,42 @@ grand_parent: User Interface (UI)
 
 ---
 
-&nbsp;
-<p align="center">
-    <img src="https://user-images.githubusercontent.com/63812189/79496351-dddbf780-7fda-11ea-9e68-46d0eeb4e92f.png"  alt="Stash Plex Theme" />
-<br/>
-    <a href="https://discord.gg/2TsNFKt">
-        <img src="https://img.shields.io/discord/559159668438728723.svg?logo=discord" alt="Discord" />
-    </a>
-</p>
+![plex theme logo](assets/plex-logo.png)
 
-# Move notification
-Plex Theme has moved to the [Community Scripts](https://github.com/stashapp/CommunityScripts/tree/main/themes/plex) repo. Get the latest version from there. Everything below is not up to date and may be removed in a future update.
+This is a community created theme for Stash inspired by the popular Plex Interface. Installation is quick and easy so you should be ready to install it in just a few simple steps.
 
-***
+Feel free to experiment with CSS and modify it to fit your needs. In case you have any issues or improvements we will be happy to hear from you on our [Discord server](https://discord.gg/2TsNFKt)! You can also submit a PR to share improvements with others!
 
-<img src="https://user-images.githubusercontent.com/63812189/79505197-e3403e80-7fe8-11ea-8bcb-9437ee9d90ad.png" />
-&nbsp;
+The Plex Theme will only change the look and feel of the Stash interface. It will not affect any other data, so you are all safe and sound! :heart:
 
-This is a community created theme for Stash inspired by popular Plex Interface. Installation is quick and easy so you should be ready to install it in just a few simple steps. 
+## Screenshots
 
-Feel free to experiment with CSS and modify it to fit your needs. In case you have any issues or improvements we will be happy to hear from you on our **[Discord server](https://discord.gg/2TsNFKt)**!
+![plex theme preview](assets/plex-1.png)
 
-Plex Theme will only change the look&feel of the Stash interface. It **will not** affect any other data, so you are all safe and sound! :heart:
+## Install
 
-&nbsp;
+1. Open User Interface Configuration panel in settings. (http://localhost:9999/settings?tab=interface)
+2. Tick/Enable Custom CSS ✅
+3. Copy & Paste [CSS Code](#css-code) to the Custom CSS text area.
 
-# Install
+### Optional - Host Backgrounds Locally
 
-**1.** Open User **Interface** Configuration panel in **settings**. ( http://localhost:9999/settings?tab=interface ) 
+_These steps are optional, by default this theme uses the Github hosted image links._
 
+1. Download [plex-background.png](assets/plex-background.png) and [plex-noise.png](assets/plex-noise.png)
 
-**2.** Tick/Enable Custom CSS ✅ 
+2. Place `plex-background.png` and `plex-noise.png` in `~/.stash` on macOS / Linux or `C:\Users\YourUsername\.stash` on Windows. Then edit the `background-image: url("")` attributes like below:  
 
+Replace line `background-image: url("https://user-images.githubusercontent.com/63812189/79506691-4af78900-7feb-11ea-883e-87b8e05ceb1c.png");` with `background-image: url("./plex-background.png");`
 
-**3.** Copy&Paste [CSS Code](#css-code) to the Custom CSS text area. 
-
-4,5 are optional. By default it uses the gh image links 
-
-**4.** Download **[background.png](https://user-images.githubusercontent.com/63812189/79506691-4af78900-7feb-11ea-883e-87b8e05ceb1c.png)**  and **[noise.png](https://user-images.githubusercontent.com/63812189/79506696-4c28b600-7feb-11ea-8176-12a46454d87a.png)** 
-
-**5.** Place `background.png` and `noise.png` in `~/.stash` on macOS / Linux or `C:\Users\YourUsername\.stash` on Windows.
-&nbsp;
-Then edit the `background-image: url("")` like below:
-&nbsp;
-
-The `Body` one 	`background-image: url("./background.png");`
-
-&nbsp;
-The `root` one `background: rgba(0, 0, 0, 0) url("./noise.png") repeat scroll 0% 0%;`
-
-&nbsp;
-
-
-
-Enjoy!
-
-
-&nbsp;
-
+Replace line `background: rgba(0, 0, 0, 0) url("https://user-images.githubusercontent.com/63812189/79506696-4c28b600-7feb-11ea-8176-12a46454d87a.png") repeat scroll 0% 0%;` with `background: rgba(0, 0, 0, 0) url("./plex-noise.png") repeat scroll 0% 0%;`
 
 # CSS Code
 
-
-
 ```css
 /*
-StashApp Plex Theme - Fidelio 2020 v1.0.3
- 
-!CHANGE PATH FOR BACKGROUND in Body and Root in case it does not load!
-You can put image files into .stash folder or upload it on imgur, or upload it to your gallery and then link it.
-
-
-TODO:
-fix blue borders
+Originally created by Fidelio 2020
+StashApp Plex Theme - v1.0.5
 */
 
 body {
@@ -123,6 +86,7 @@ body {
 	background-color: #1f2326!important;
 }
 
+.job-table.card,
 .card {
 	background-color: #30404d;
 	border-radius: 3px;
@@ -285,5 +249,13 @@ option {
 
 #performer-scraper-popover {
   z-index: 10;
+}
+
+#tasks-panel .tasks-panel-queue {
+  background: rgba(0, 0, 0, 0);
+}
+
+div.react-select__menu-portal {
+  z-index: 2;
 }
 ```

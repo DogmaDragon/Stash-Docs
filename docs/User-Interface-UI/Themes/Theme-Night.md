@@ -21,11 +21,13 @@ grand_parent: User Interface (UI)
 
 ---
 
-![Stash Night Theme](https://user-images.githubusercontent.com/56232119/116778420-13327680-aa72-11eb-81ba-69339f83bf2d.png)
+## Screenshots
 
-# CSS Code
+![Stash Night Theme](assets/night-1.png)
 
-```
+## CSS Code
+
+```css
 /*
 Night theme Version 0.1.
 */
