@@ -21,7 +21,7 @@ grand_parent: User Interface (UI)
 
 ---
 
-## Screenshots
+### Screenshots
 
 ![Stash Night Theme](assets/night-1.png)
 

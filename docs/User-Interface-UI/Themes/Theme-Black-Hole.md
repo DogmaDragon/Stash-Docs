@@ -21,44 +21,48 @@ grand_parent: User Interface (UI)
 
 ---
 
-&nbsp;
-# Install
+## Install
 
-**1.** Open User **Interface** Configuration panel in **settings**. ( http://localhost:port/settings?tab=interface ) 
+1. Open User **Interface** Configuration panel in **settings**. (http://localhost:port/settings?tab=interface) 
+2. Tick/Enable Custom CSS ✅ 
+3. Copy&Paste [CSS Code](#css-code) to the Custom CSS text area. 
 
-**2.** Tick/Enable Custom CSS ✅ 
+---
 
-**3.** Copy&Paste [CSS Code](#css-code) to the Custom CSS text area. 
+## Notes
 
-# Notes
+Just a simple all black theme.
 
-Just a simple all black theme.<br>
-Everything in this css is commented, so if you don't like something just remove it!<br>
-Don't like the color of the border, or the border at all, change it or remove it!<br>
+Everything in this css is commented, so if you don't like something just remove it!
+
+Don't like the color of the border, or the border at all, change it or remove it!
+
 If you're not sure how DM me on Discord.
 
-# Important changes
-1. By default scrubber is hidden.<br>
-2. By default hovering on performers images when checking them below a scene/gallery makes them bigger, useful if you're not really sure who the hell is that person!!! This is a little tricky when you have a lot of performers on an item but I manage to check them all. To achieve this I had to "break" tags, now they never to go a new line.<br>
-3.  Made checkboxes, on scenes/galleries/etc., a little bigger so it's easier to click on them and not on the item itself.<br>
-4. Removed transparency from logos when on scenes/etc., it's easier to see them and it's not a big deal since they disappear when you hover on an item to check it.<br>
-5. You can set a custom background from an online image and yes you can use gifs but mind the size :)<br>
-By default it's set to "contain" so if the image is extremely small, well you get the catch... shouldn't be a problem with bigger images.
+---
 
-&nbsp;
+## Important changes
+
+1. By default scrubber is hidden.
+2. By default hovering on performers images when checking them below a scene/gallery makes them bigger, useful if you're not really sure who the hell is that person!!! This is a little tricky when you have a lot of performers on an item but I manage to check them all. To achieve this I had to "break" tags, now they never to go a new line.
+3.  Made checkboxes, on scenes/galleries/etc., a little bigger so it's easier to click on them and not on the item itself.
+4. Removed transparency from logos when on scenes/etc., it's easier to see them and it's not a big deal since they disappear when you hover on an item to check it.
+5. You can set a custom background from an online image and yes you can use gifs but mind the size :)
+By default it's set to "contain" so if the image is extremely small, well you get the catch... shouldn't be a problem with bigger images.
 
 Have fun and if in doubt you should find me on Discord!
 
-&nbsp;
+---
 
-# Changelog
-V2.0<br>Code simplified<br>Changed borders color from red to "Stash grey"<br>Edits to paint it all black again!
+## Changelog
 
-&nbsp;
+V2.0
 
-# CSS Code
+Code simplified<br>
+Changed borders color from red to "Stash grey"<br>
+Edits to paint it all black again!
 
-
+## CSS Code
 
 ```css
 /* Black Hole Theme by BViking78 v2.0 */

@@ -21,24 +21,14 @@ grand_parent: User Interface (UI)
 
 ---
 
-&nbsp;
-<p align="center">
-<br/>
-    <a href="https://discord.gg/2TsNFKt">
-        <img src="https://img.shields.io/discord/559159668438728723.svg?logo=discord" alt="Discord" />
-    </a>
-</p>
-
-![Modern Dark](https://user-images.githubusercontent.com/72030708/158081810-9d866204-2c8a-4270-a961-b1421f178f46.jpg)
-&nbsp;
-
 This theme was inspired by Plex Interface. Installation is quick and easy, so you should be ready to install it in just a few simple steps. 
 
 Feel free to experiment with CSS and modify it to fit your needs. In case you have any issues or improvements, DM me on Discord!
 
-**Note:** The Images and Markers pages are hidden on mobile in this theme to keep a perfect 2x3 nav menu. Those pages can be restored by commenting out or removing the following section:
+{: .note }
+The Images and Markers pages are hidden on mobile in this theme to keep a perfect 2x3 nav menu. Those pages can be restored by commenting out or removing the following section:
 
-```
+```css
 div[data-rb-event-key="/images"] {
    display: none;
 }
@@ -47,32 +37,20 @@ div[data-rb-event-key="/scenes/markers"] {
 }
 ```
 
-&nbsp;
-# Install
+### Screenshots
 
-**1.** Open User **Interface** Configuration panel in **settings**. ( http://localhost:9999/settings?tab=interface ) 
+![Modern Dark preview #1](assets/modern-dark-1.jpg)
 
+## Install
 
-**2.** Tick/Enable Custom CSS ✅ 
-
-
-**3.** Copy&Paste [CSS Code](#css-code) to the Custom CSS text area. 
-
-**4.** In your config.yml file, update the value of the `theme_color` property to `#191919`.
-
-&nbsp;
-
-
+1. Open User **Interface** Configuration panel in **settings**. (http://localhost:9999/settings?tab=interface) 
+2. Tick/Enable Custom CSS ✅ 
+3. Copy&Paste [CSS Code](#css-code) to the Custom CSS text area. 
+4. In your config.yml file, update the value of the `theme_color` property to `#191919`.
 
 Enjoy!
 
-
-&nbsp;
-
-
-# CSS Code
-
-
+## CSS Code
 
 ```css
 /* Modern Dark Theme by cj13 v1.2 */

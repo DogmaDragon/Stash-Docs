@@ -35,7 +35,7 @@ Feel free to experiment with CSS and modify it to fit your needs. In case you ha
 
 The Plex Theme will only change the look and feel of the Stash interface. It will not affect any other data, so you are all safe and sound! :heart:
 
-## Screenshots
+### Screenshots
 
 ![plex theme preview](assets/plex-1.png)
 
