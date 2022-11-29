@@ -19,6 +19,12 @@ grand_parent: User Interface (UI)
 {:toc}
 </details>
 
+<style>
+.no-border > img {
+    border: none;
+}
+</style>
+
 ---
 
 <span class="no-border">![plex theme logo](assets/plex-logo.png)</span>
