@@ -25,7 +25,7 @@ parent: Add-ons
 
 Scrapers are the way to retrieve information from websites for your movies/scenes/galleries/performers...etc. Using scrapers wisely, you can avoid typing information manually and repetitively. They can help you quickly establish links between movies/scenes and performers/studios, add relative tags, then download covers/posters for easy recognition. It's a great feature to organize your video or image collections.
 
-All scrapers are ".yml" files. Some scrapers like script scrapers also come with their own ".py", ".rb" or ".js" files.
+All scrapers are ".yml" files. Some scrapers like script scrapers also come with their own ".py", ".rb" files.
 
 ### Installation
 
@@ -81,9 +81,9 @@ This is the most common type of scrapers, which use either XPath parser to pin-p
 
 This type of scrapers is mostly the same as XPath/JSON scrapers, except it will launch a headless Chrome browser to retrieve the information from websites. It can also get cookies, simulate a mouse click and other actions. These scrapers have `useCDP: true` setting in them.
 
-#### Python / Ruby / Javascript Scrapers
+#### Python / Ruby Scrapers
 
-This type of scrapers will launch Python, Ruby or Javascript to retrieve information from websites. Script scrapers are powerful, versatile and cross-platform. So they usually can do much more than regular scrapers. To install this kind of scrapers, you need to copy not only the .yml file, but also all the script files like .py, .rb or .js that associated with it.
+This type of scrapers will launch Python, Ruby to retrieve information from websites. Script scrapers are powerful, versatile and cross-platform. So they usually can do much more than regular scrapers. To install this kind of scrapers, you need to copy not only the .yml file, but also all the script files like .py, .rb that associated with it.
 
 ---
 
