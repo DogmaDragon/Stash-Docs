@@ -21,7 +21,7 @@ grand_parent: User Interface (UI)
 
 ---
 
-![plex theme logo](assets/plex-logo.png)
+<span class="no-border">![plex theme logo](assets/plex-logo.png)</span>
 
 This is a community created theme for Stash inspired by the popular Plex Interface. Installation is quick and easy so you should be ready to install it in just a few simple steps.
 
@@ -46,12 +46,10 @@ _These steps are optional, by default this theme uses the Github hosted image li
 1. Download [plex-background.png](assets/plex-background.png) and [plex-noise.png](assets/plex-noise.png)
 
 2. Place `plex-background.png` and `plex-noise.png` in `~/.stash` on macOS / Linux or `C:\Users\YourUsername\.stash` on Windows. Then edit the `background-image: url("")` attributes like below:  
+  - Replace line `background-image: url("https://user-images.githubusercontent.com/63812189/79506691-4af78900-7feb-11ea-883e-87b8e05ceb1c.png");` with `background-image: url("./plex-background.png");`
+  - Replace line `background: rgba(0, 0, 0, 0) url("https://user-images.githubusercontent.com/63812189/79506696-4c28b600-7feb-11ea-8176-12a46454d87a.png") repeat scroll 0% 0%;` with `background: rgba(0, 0, 0, 0) url("./plex-noise.png") repeat scroll 0% 0%;`
 
-Replace line `background-image: url("https://user-images.githubusercontent.com/63812189/79506691-4af78900-7feb-11ea-883e-87b8e05ceb1c.png");` with `background-image: url("./plex-background.png");`
-
-Replace line `background: rgba(0, 0, 0, 0) url("https://user-images.githubusercontent.com/63812189/79506696-4c28b600-7feb-11ea-8176-12a46454d87a.png") repeat scroll 0% 0%;` with `background: rgba(0, 0, 0, 0) url("./plex-noise.png") repeat scroll 0% 0%;`
-
-# CSS Code
+## CSS Code
 
 ```css
 /*
