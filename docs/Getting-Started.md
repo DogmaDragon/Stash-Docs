@@ -47,7 +47,7 @@ has_toc: false
 
 ---
 
-## First steps
+## First Steps
 
 1. [Setting Up Content Libraries]({{ site.baseurl }}/docs/Getting-Started/First-Steps/#setting-up-content-libraries)
 2. [Configuring Scan Options]({{ site.baseurl }}/docs/Getting-Started/First-Steps/#configuring-scan-options)
