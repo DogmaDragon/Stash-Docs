@@ -22,7 +22,7 @@ grand_parent: Getting Started
 ---
 
 1. Run the executable (typically `stash-win.exe`). 
-  - Running the app might present a security prompt since the binary isn't signed yet. Just click more info and then the `run anyway` button.
+  - Running the app might present a security prompt since the binary isn't signed yet. Just click `More info` and then the `run anyway` button.
 2. It should open a browser tab http://localhost:9999 to get started.
 3. The program will show an icon in your notification area. You can access some quick links or quit the server from there.
 
