@@ -62,7 +62,7 @@ If you haven't set up StashDB in your Stash settings yet, now's the time to do i
 {:style="counter-reset:none"}
 1.  First, click the "Scrape All" button. This will use your PHashes to find matching scenes on StashDB for every scene on the current page. The "Scrape by fragment" buttons will do the same thing but just for one scene at a time. Also, you may want to change your Scene Tagger settings with the ⚙ icon next to "Scrape All." You can tell it to Merge (keep all) tags, Overwrite (keep only new) tags, or ignore StashDB's tags entirely (leave box unchecked). If you plan on [contributing to StashDB](https://guidelines.stashdb.org/docs/getting-started-stashdb/#contributing-to-stashdb){:target="_blank"}, you should have "Show male performers" turned on to better follow [these guidelines](https://guidelines.stashdb.org/docs/scenes/scene-performers/#missing-scene-performers){:target="_blank"}.
 
-[Running "Scrape All" and "Search"](assets/scrape-all-and-search.jpg)
+![Running "Scrape All" and "Search"](assets/scrape-all-and-search.jpg)
 
 {:style="counter-reset:none"}
 1. If your fingerprint search doesn't return a correct result for your scene, you can try searching with the "Query" field using title, performer, release date, or studio. Try to use as little text as possible to find your scene. Otherwise, unnecessary words that do not match StashDB's info may block correct results. If you can find the matching scene on StashDB.org but can't find it using the Scene Tagger, you can use the scene's [StashID](https://guidelines.stashdb.org/docs/getting-started-stashdb/#whats-a-stashid){:target="_blank"} as your Tagger query.
