@@ -17,7 +17,7 @@ logo: "/assets/logo_v2.png"
 
 # Aux links for the upper right navigation
 aux_links:
-  ":heart: Donate to Stash":
+  "Donate @ Open Collective":
     - "https://opencollective.com/stashapp"
 aux_links_new_tab: true
 
