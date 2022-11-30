@@ -42,7 +42,7 @@ ffmpeg -i big_buck_bunny.mkv -c:v copy -c:a copy remuxed_file.mkv
 
 ---
 
-## Extracing a sample of a video
+## Extracting a sample of a video
 
 If you are asked for a sample of a video (e.g. for developers to analyse), you can use 
 
